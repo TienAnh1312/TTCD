@@ -2,18 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng ký thành viên</title>
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <h3>Đăng ký thành viên</h3>
+   <h3>Đăng ký thông tin người sử dụng</h3>
     <form action="">
         <table width="80%" align="center" border="0" cellpadding="5" cellspacing="5">
          <tbody>
-            <tr>
-                <td>Họ và tên </td>
-                <td><input type="text" name="fullname" id="fullname"></td>
-            </tr>
             <tr>
                 <td>Tên đăng nhập </td>
                 <td><input type="text" name="username" id="username"></td>
@@ -23,11 +19,11 @@
                 <td><input type="password" name="pass" id="pass"></td>
             </tr>
             <tr>
-                <td>Ảnh đại diện </td>
-                <td><input type="file" name="avata" id="avata" size="30"></td>
+                <td>Nhập lại mật khẩu </td>
+                <td><input type="password" name="passU" id="passU"></td>
             </tr>
             <tr>
-                <td>Thư điện tử </td>
+                <td>Email </td>
                 <td><input type="email" name="email" id="email" size="30"></td>
             </tr>
             <tr>
@@ -40,48 +36,53 @@
                 </td>
             </tr>
             <tr>
+                <td>Độ tuổi</td>
+                <td>
+                    <input type="checkbox" name="duoi13" id="duoi13">
+                    <label for="duoi13">Dưới 13 tuổi</label>
+
+                    <input type="checkbox" name="13den17" id="13den17">
+                    <label for="13den17">Từ 13 đến 17 tuổi</label>
+
+                    <input type="checkbox" name="18den25" id="18den25">
+                    <label for="18den25">Từ 18 đến 25 tuổi</label>
+
+                    <input type="checkbox" name="tren25" id="tren25">
+                    <label for="tren25">Trên 25 tuổi</label>
+                </td>
+            </tr>
+            <tr>
                 <td>Sở thích</td>
                 <td>
-                    <input type="checkbox" name="bongda" id="bongda">
-                    <label for="male">Bóng đá</label>
+                    <input type="checkbox" name="amnhac" id="amnhac">
+                    <label for="amnhac">Âm nhạc</label>
 
-                    <input type="checkbox" name="xemphim" id="xemphim">
-                    <label for="xemphim">Xem phim</label>
+                    <input type="checkbox" name="thethao" id="thethao">
+                    <label for="thethao">Thể thao</label>
 
                     <input type="checkbox" name="dulich" id="dulich">
                     <label for="dulich">Du lịch</label>
 
-                    <input type="checkbox" name="boi" id="boi">
-                    <label for="boi">Bơi</label>
-
-                    <input type="checkbox" name="nghenhac" id="nghenhac">
-                    <label for="nghenhac">Nghe nhạc</label>
+                    <input type="checkbox" name="game" id="game">
+                    <label for="game">Game</label>
                 </td>
             </tr>
             <tr>
+                <td>Nghề nghiệp</td>
                 <td>
-                    <select name="diachi" id="diachi">
-                        <option value="">---Chọn Tỉnh---</option>
-                        <option value="">Tuyên Quang</option>
-                        <option value="">Hà nội</option>
-                        <option value="">Hà Giang</option>
-                        <option value="">Hải phòng</option>
+                    <select name="job" id="job">
+                        <option value="">Chọn ngành nghề</option>
+                        <option value="">Công nhân</option>
+                        <option value="">Nhân viên bán hàng</option>
                     </select>
                 </td>
-            </tr>
-            <tr>
-                <td>Địa chỉ</td>
-                <td><input type="text" name="diachi" id="diachi"></td>
-            </tr>
-            <tr>
-                <td>Điện thoại</td>
-                <td><input type="text" name="phone" id="phone"></td>
             </tr>
             <tr>
                 <td>mô tả ngắn</td>
                 <td><textarea name="mota" id="mota" cols="30" rows="10"></textarea></td>
             </tr>
             <tr> 
+                <td></td>
                 <td>
                     <input type="submit" name="dangky" value="Đăng ký" >
                     <input type="reset" name="lamlai" value="Làm lại">
@@ -90,6 +91,5 @@
          </tbody>
         </table>
     </form>
-    
 </body>
 </html>

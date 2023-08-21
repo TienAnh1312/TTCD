@@ -1,0 +1,47 @@
+nav#navTop{
+    width: 960px;/*Chiều rộng*/
+    margin: 0 auto;/*Đặt menu giữa màn hình*/
+    background: #ccc;
+    height: 40px; /*Chiều cao*/
+}
+nav#navTop ul{
+    list-style: none;/*bỏ style mặc định*/
+    padding: 0;
+    margin: 0;
+
+    position: relative/*thiết lập hiển thị cho thẻ li cấp cha*/;
+}
+nav#navTop ul li{
+    float: left;
+    border-right: solid 1px #fff;
+}
+nav#navTop ul li a{
+    text-decoration: none;/*bỏ gạch chân*/
+    display: block;
+    padding: 10px 30px;
+}
+/*Thiết lập khi thẻ a được hover hoặc nhận classlà selected*/
+.selected,
+nav#navTop ul li a:hover{
+    background: red;
+    color: #fff;
+}
+/*css cho menu cấp 2*/
+nav#navTop ul li > ul {
+    position: absolute;/*Hiển thị*/
+    width: 159px;
+    background: #666;
+    visibility: hidden;/* thiết lập mặc định ẩn */
+}
+nav#navTop ul li:hover >ul{
+    visibility: visible;
+}
+nav#navTop ul li>ul li{
+    border-bottom: solid 1px #924b4b;/*Thiết lập đường viền cho menu c2*/
+}
+/*Menu cấp N* */
+nav#navTop ul li >ul lu > ul{
+    /*Menu lệch sang trái bằng kích thước cấp cha*/
+    margin-left: 159px;
+    margin-top: -40px;
+}

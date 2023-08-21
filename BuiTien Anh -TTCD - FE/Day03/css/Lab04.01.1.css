@@ -1,0 +1,98 @@
+nav{
+    height: 40px;
+    background: #4c4e5a;
+    background: -webkit-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: -moz-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: -o-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    /*Tạo bo tròn*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 40px;
+}
+/*Bỏ đương kẻ phần tử đầu và cuối*/
+nav ul li:first-child a{ border-left: none;}
+nav ul li:last-child a{border-right: none;}
+/*khi người dung hover đến phần tử*/
+nav ul li:hover > a{color: #8fde62;}
+nav ul li a{
+    display: block;
+    padding: 0 14px;
+    margin: 6px 0;
+    line-height: 28px;
+    text-decoration: none;
+    /*Tạo đường kẻ trái phải*/
+    border-left: 1px solid #393942;
+    border-right:1px solid #4f5058;
+    /*Chọn chữ*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    /*Màu săc*/
+    color: #f3f3f3;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 6);
+    /*Hiệu ứng*/
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+nav a{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+/*Định dạng hiển thị munu con*/
+ul.submenu{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100px;
+
+    opacity: 0;/*Không nhìn thấy menu*/
+    background: #1f2024;
+
+    -webkit-border-radius:0 0 5px 5px;  
+    -moz-border-radius:0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+
+    -webkit-transition: opacity .25s ease .1s;
+    -moz-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+}
+/*hiển thị menu sub khi hover đến mục chọn*/
+nav ul li:hover>ul.submenu{
+    opacity: 10;
+    height: auto;
+}
+/*Loại bỏ đường kẻ trong submenu*/
+.submenu li a{
+    border: none;
+}
+/*Tọa đường kẻ ngang*/
+.submenu li{
+    width: 100%;
+    border-bottom: 1px solid #393942;
+}
+/*bỏ đường kẻ ngang ở phần tử cuối cùng*/
+.submenu li:last-child{border-bottom: none;}
+/*Định dạng phần tử trong menu con*/
+.submenu li a {
+    width: 100%;
+    padding: 2px 0px 4px 20px;
+    margin: 0;
+    border: none;
+}
+/*Tạo icon cho menu con*/
+.submenu a.css3 {background: ;}

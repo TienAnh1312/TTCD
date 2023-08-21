@@ -1,0 +1,64 @@
+body{
+    /* background-image:url(/Day03/img/background.jpg) ; */
+}
+.clearfix{
+    overflow: hidden;
+    clear: both;
+}
+.clearfix nav ul li{
+    list-style-type: none;
+}
+header{
+    background: #fff;
+}
+.fixwidth{
+    width: 940px;
+    margin: 0 auto;
+}
+.topnav{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 34px 0;
+}
+#logo{
+    width: 200px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+#logo a{
+    color: black;
+    font-family: Lato-Bold;
+    font-size: 25px;
+}
+#logo a span{
+    color: #f06c64;
+}
+.topnav nav{
+    float: right;
+    width: 570px;
+    
+}
+.topnav nav ul li{
+    float: left;
+}
+.topnav nav ul li a{
+    color: black;
+    display: block;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-family: Lato-Bold;
+    font-size: 20px;
+}
+.selected,
+.topnav nav ul li a:hover{
+    color: #f06c64;
+}
+#cc{
+    background: #fff;
+    padding: 50px 0;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}

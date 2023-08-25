@@ -16,7 +16,11 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-
+.container{
+    /* display: flex; */
+    width: calc(12*100%/18);
+    margin: auto;
+}
 /* header */
 
 header nav .menu .menu-item{
@@ -113,9 +117,9 @@ main .product .container .category{
     display: flex;
     flex-wrap: wrap;
 }
-main .product .hot-product{
-    width: 80%;
-    margin-left: 8rem;
+main .product .product-hot{
+    width: 90%;
+    justify-content: center;
 }
 main .product .container .category .slider p{
     text-align: center;
@@ -125,20 +129,20 @@ main .product .container .category .slier img{
     width: 80%;
 }
 
-main .container .hot-product h2{
+main .container .product-hot h2{
     text-align: center;
     margin-top: 6rem;
     font-size: 1.5rem;
 }
-main .container .hot-product .imgg{
+main .container .product-hot .product-box{
     margin-top: 3rem;
     display: flex;
     
 }
-main .container .hot-product .imgg img{
+main .container .product-hot .product-box img{
    width: 90%;
 }
-main .container .hot-product .imgg p{
+main .container .product-hot .product-box p{
    font-size: 10px;
    text-align: center;
    font-family:'font-ultra' ;
@@ -184,64 +188,227 @@ main .title::after{
         width: 7rem;
 }
 /* 3.about-us */
-main .backgourd-about img{
+.backgourd-about{
+    position: absolute;
+    z-index: -1 ;
     width: 100%;
+    height: 100%;
+    background-image: url(/images/ve-chung-toi/bg-about-us.jpg);
+    background-size: cover;
     filter: brightness(40%);
 }
-main .about-us .container{
-    position: relative;
-}
-main .about-us .container .ccabout h2{
-    left: 0; right: 0; top: 10%;
-    position: absolute;
-    margin: auto;
+.container h2{
+    padding: 20px;
+    font-size: 23px;
     text-align: center;
+    margin-top: 2rem;
     color: #fff;
+}
+.ccabout{
+    width: calc(12*100%/18);
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.img-we-one{
+    width: 45%;
+}
+.img-we-one img{
+    width: 100%;
+}
+.about-content{
+    width: 45%;
+}
+.about-content p{
+    color: #fff;
+    font-size: 12px;
+    text-align: justify;
+}
+.about--list-img{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.img-we-img{
+    width: 23%;
+}
+.img-we-img img{
+    width: 100%;
+}
+
+/*Why*/
+.why{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(12*100%/18);
+    margin: auto;
+    justify-content: space-between;
+}
+.why_item{
+    width: calc(50% - 2rem);
+    margin: .5rem 1rem;
+}
+.why_img{
+    display: flex;
+    background-color: #fff;
+    margin-top: 1rem;
+    width: 100%;
+}
+.why_img span{ 
+   color: #bd945f;
+}
+
+.why_img p {
+    color: #222;
+    font-size: 13px;
+    padding-top: 1.5rem;
+}
+
+
+/* .list_frist{
+    display: flex;
+    width: 100%;
+
+}
+.list_secont{
+    display: flex;
+    margin-top: 2%;
+}
+.frist_item{
+    width: 35%;
+    background-color: #fff; 
+    
+}
+.secont_item{
+    background-color: #fff;
+    margin-left: 2rem;
+    width: 35%;
+}
+.conten{
+    display: flex;
+    align-items: center;
+}
+.conten p{
+    font-size: 11px;
+}
+.content_letter{
+    color: #bd945f;
     font-family:'font-ultra' ;
 }
-main .about-us .container .ccabout p{
-    top: 20%; right: 24%;
-    width: 26%;
-    position: absolute;
-    color: #fff ;
-    text-align: justify;
-    font-size: 0.7rem;
-}
-main .about-us .container .ccabout .img-we-one img{
-    position: absolute;
-    top: 20%;left: 24%;
-    font-size: 2rem;
-    width: 25%;
-}
-main .about-us .container .ccabout .img-we-hai img{
-    position: absolute;
-    top: 38.6%;left: 50%;
-    font-size: 2rem;
-    width: 5.5%;
-    display: flex;
-}
-main .about-us .container .ccabout .img-we-ba img{
-    position: absolute;
-    top: 38.6%;left: 57%;
-    font-size: 2rem;
-    width: 5.5%;
-    display: flex;
-}
-main .about-us .container .ccabout .img-we-bon img{
-    position: absolute;
-    top: 38.6%;left: 64%;
-    font-size: 2rem;
-    width: 5.5%;
-    display: flex;
-}
-main .about-us .container .ccabout .img-we-nam img{
-    position: absolute;
-    top: 38.6%;left: 70.4%;
-    font-size: 2rem;
-    width: 5.5%;
-    display: flex;
-}
+.wecome-list{
+    margin-top: 2rem;
+    padding-left: 20%;
+    padding-bottom: 5rem;
+} */
+
 /* 4.news */
+.w-50{
+    width: 50%;
+}
+.news h2{
+    padding: 20px;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10rem;
+    color: #070707;
+}
+
+.news img{
+    width: 100%;
+ 
+}
+.divide_news{
+
+    display: flex;
+}
+.news-item{
+    width: 90%;
+    display: flex;
+    padding-left: 2rem;
+    margin-bottom: 10px;
+}
+.content_item{
+    padding-left: 2rem; 
+}
+.content_item p{
+    text-align: justify;
+}
+.content_item h4 a{
+    color: #bd945f;
+}
+.news .content{
+    position: relative;
+    bottom: 8rem;
+    background-color: #bd945f;
+    text-align: justify;
+    padding: 10px 20px;
+}
+.content h3 a{
+    font-family:'font-ultra' ;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.news_button button{
+    border: 0px;
+    background-color: #fff;
+    color: #bd945f;
+    padding-top: 2rem;
+}
+/* .news .container h2{
+    padding: 20px;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #070707;
+}
+.ccnews{
+    width: calc(12*100%/18);
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.bg_news{
+    display: flex;
+    width: 100%;
+}
+
+.img-news-o{
+    width: 50%;
+}
+.news-content{
+    margin-left: 1rem;
+}
+.content_text{
+    margin-left: 1rem;
+} */
+
+/* partner */
+.partner h2{
+    text-align: center;
+    font-size: 23px;
+}
+.img_partner{
+    display: flex;
+    padding-left: 16rem;
+}
+.img_partner img{
+    height: 7.1rem;
+    margin: auto;
+}
+/* contactt */
+.contactt .contact_back{
+    position: relative;
+    width: 100%;
+}
+
+.contactt{
+    flex-grow: row;
+}
+.contentt{
+    position: absolute;
+    
+}
 /* footer */
 footer{
     margin-top: auto;

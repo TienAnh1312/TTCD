@@ -122,9 +122,7 @@ main .product .product-hot{
     width: 100%;
     justify-content: center;
 }
-main .product .container .category .slider p{
-   /* padding-left: 1rem; */
-}
+
 
 
 main .container .product-hot h2{
@@ -163,7 +161,7 @@ main .product-item p{
     
 }
 .slick-prev {
-    left: -43px;
+    left: -40px;
 }
 
 /* stars-ring */
@@ -609,6 +607,13 @@ footer .contact ul li div img{
             padding-bottom: 4rem;
             font-size: 10px;
         }
+        /* product */
+        .slick-prev {
+            left: -30px;
+        }
+        main .product .product-hot {
+            width: 95%;
+        }
         /* contact */
         main .contact .container {  
            display: block;
@@ -631,5 +636,14 @@ footer .contact ul li div img{
             padding: 0.4rem 1rem;
             border: none;
         }
-  }
-  
+        /* footer */
+        footer .container {
+            display: block;
+            width: calc(12*100%/18);
+            margin: auto;
+            justify-content: space-between;
+            padding: 1rem;
+            line-height: 1.7rem;
+            padding: 3rem 0;
+        }
+    }

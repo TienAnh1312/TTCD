@@ -1,11 +1,12 @@
 
-.note {
-    display: block;
-    text-align: center;
-}
 .product-img {
    margin: auto;
    justify-content: space-evenly;
+}
+.note{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
 }
 
 /* Small devices (landscape phones, 576px and up)  */

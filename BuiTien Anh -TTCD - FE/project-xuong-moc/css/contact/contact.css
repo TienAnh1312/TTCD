@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f3f3;
+}
+
+.container{
+    width: calc(12*100%/18);
+    margin: auto;
+    margin-top: 3rem;
+ }
+
+ .contact-common{
+    display: flex;
+    margin: 2rem 0;
+    
+ }
+ 
+
+ 
+ 

@@ -1,0 +1,269 @@
+
+    .contact-img{
+        width: 0;
+    }
+    .contact-img img{
+        width: 0%;
+    }
+    .contact-input input{
+        width: 80%;
+        margin: .2rem 0;
+        padding: 4px 20px;
+        display: inline-block;
+        border: 3px solid #bd945f;
+        /* border-radius: 4px; */
+     }
+     .contact-input h2{
+        font-size: .6rem;
+        color: #bd945f;
+     }
+     .contact-input button{
+        width: 30%;
+        background-color: #bd945f;
+        color: white;
+        padding: 4px 1px;
+        margin: 1px 0;
+        border: none;
+        cursor: pointer;
+     }
+     .contact-input{
+        margin: 0rem rem;
+     }
+     .contact-box{
+        padding: 1rem 2.3rem;
+        background-color: #fff;
+        position: relative;
+        margin: 50px 0;
+    }
+
+ 
+ /* Small devices (landscape phones, 576px and up)  */
+ @media (min-width: 576px) { 
+    .contact-img{
+        width: 0%;
+    }
+    .contact-img img{
+        width: 0%;
+    }
+    .contact-input input{
+        width: 90%;
+        margin: .2rem 0;
+        padding: 4px 20px;
+        display: inline-block;
+        border: 3px solid #bd945f;
+        /* border-radius: 4px; */
+     }
+     .contact-input h2{
+        font-size: .7rem;
+        color: #bd945f;
+     }
+     .contact-input button{
+        width: 20%;
+        background-color: #bd945f;
+        color: white;
+        padding: 4px 1px;
+        margin: 1px 0;
+        border: none;
+        cursor: pointer;
+     }
+     .contact-input{
+        margin: 0rem 1rem;
+     }
+     .contact-box{
+        padding: 1.5rem 5rem;
+        background-color: #fff;
+        position: relative;
+        margin: 50px 0;
+    }
+  }
+ 
+  /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) { 
+    .contact-img{
+        width: 0%;
+    }
+    .contact-img img{
+        width: 0%;
+    }
+    .contact-input input{
+        width: 90%;
+        margin: .2rem 0;
+        padding: 4px 20px;
+        display: inline-block;
+        border: 3px solid #bd945f;
+        /* border-radius: 4px; */
+     }
+     .contact-input h2{
+        font-size: .7rem;
+        color: #bd945f;
+     }
+     .contact-input button{
+        width: 20%;
+        background-color: #bd945f;
+        color: white;
+        padding: 4px 1px;
+        margin: 1px 0;
+        border: none;
+        cursor: pointer;
+     }
+     .contact-input{
+        margin: 0rem 1rem;
+     }
+     .contact-box{
+        padding: 1.5rem 5rem;
+        background-color: #fff;
+        position: relative;
+        margin: 50px 0;
+    }
+  }
+ 
+  /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) { 
+    .contact-img{
+        width: 100%;
+    }
+    .contact-img img{
+        width: 120%;
+    }
+    .contact-input input{
+        width: 100%;
+        margin: .3rem 0;
+        padding: 3px 20px;
+        display: inline-block;
+        border: 3px solid #bd945f;
+        /* border-radius: 4px; */
+     }
+     .contact-input h2{
+        font-size: 1rem;
+        color: #bd945f;
+     }
+     .contact-input button{
+        width: 20%;
+        background-color: #bd945f;
+        color: white;
+        padding: 9px 1px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+     }
+     .contact-input{
+        margin: 0rem 4rem;
+     }
+     .contact-box{
+        padding: 1.5rem 5rem;
+        background-color: #fff;
+        position: relative;
+        margin: 50px 0;
+    }
+  }
+ 
+  /* X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { 
+    .contact-img{
+        width: 100%;
+    }
+    .contact-img img{
+        width: 100%;
+    }
+    .contact-input input{
+        width: 100%;
+        margin: .3rem 0;
+        padding: 6px 20px;
+        display: inline-block;
+        border: 2px solid #bd945f;
+        /* border-radius: 4px; */
+     }
+     .contact-input h2{
+        font-size: 1.1rem;
+        color: #bd945f;
+     }
+     .contact-input button{
+        width: 20%;
+        background-color: #bd945f;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+     }
+     .contact-input{
+        margin: 0rem 4rem;
+     }
+     .contact-box{
+        padding: 1.5rem 5rem;
+        background-color: #fff;
+        position: relative;
+        margin: 50px 0;
+    }
+  }
+ 
+  /* XX-Large devices (larger desktops, 1400px and up) */
+ @media (min-width: 1400px) {
+.container{
+    width: calc(12*100%/18);
+    margin: auto;
+    margin-top: 3rem;
+ }
+.contact-box{
+     padding: 1.5rem 5rem;
+     background-color: #fff;
+     position: relative;
+     margin: 50px 0;
+ }
+ .contact-common{
+    display: flex;
+    margin: 2rem 0;
+ }
+ .contact-input{
+    margin: 0rem 4rem;
+ }
+ .contact-input h2{
+    font-size: 1.1rem;
+    color: #bd945f;
+ }
+ .contact-input input{
+    width: 100%;
+    margin: .3rem 0;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 3px solid #bd945f;
+    /* border-radius: 4px; */
+ }
+ .contact-input button{
+  width: 20%;
+  background-color: #bd945f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+ }
+.contact-img{
+    width: 70%;
+}
+.contact-img img{
+    width: 100%;
+}
+.contact-input h2{
+    font-size: 1.1rem;
+    color: #bd945f;
+ }
+ .contact-input button{
+    width: 20%;
+    background-color: #bd945f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+ }
+ .contact-input{
+    margin: 0rem 4rem;
+ }
+ .contact-box{
+    padding: 1.5rem 5rem;
+    background-color: #fff;
+    position: relative;
+    margin: 50px 0;
+}
+  }

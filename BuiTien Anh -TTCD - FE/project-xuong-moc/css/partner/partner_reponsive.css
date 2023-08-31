@@ -1,112 +1,86 @@
-@media (min-width: 350px) { 
-    .partner-item {
-        display: block;
-    }
-    .partner-content {
-        padding: 0rem 0rem;
-    }
-    .partner-content a {
-        font-size: .8rem;
-   }
-    .partner-content  p{
-        text-align: justify;
-        font-size: .7rem;
-   }
-    .partner-logo img{
-        width: 60%;
-        padding-left: 2.6rem;
-   }
-}
+
+    .partner-content a{
+        font-size: 0.6rem;
+     }
+    .partner-content p{
+        font-size: 0.8rem;
+     }
+     .partner-logo {
+        width: 94%;
+        
+     } 
+
  
  /* Small devices (landscape phones, 576px and up)  */
  @media (min-width: 576px) { 
-    .partner-content a {
-        font-size: .8rem;
-   }
-    .partner-content  p{
-        font-size: .8rem;
-   }
-     .partner-logo img {
-      
-        width: 45%;
-        padding-left: 6rem;
-    }
+    .partner-logo {
+        width: 70%;
+        padding:0 2.3rem ;
+     } 
   }
  
   /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) { 
-    .partner-content a {
-        font-size: .8rem;
-   }
-    .partner-content  p{
-        font-size: .8rem;
-   }
-     .partner-logo img {
-      
-        width: 45%;
-        padding-left: 8rem;
+    .partner-content a{
+        font-size: 1rem;
+     }
+    .partner-content p{
+        font-size: 0.8rem;
+     }
+    .partner-item {
+        margin: 1rem 4px;
+     }
+    .partner-item {
+        display: block;
     }
+    .partner-logo {
+        width: 46%;
+        padding: 1rem 7.6rem;
+     }  
   }
  
   /* Large devices (desktops, 992px and up) */
  @media (min-width: 992px) { 
-    .partner-content a {
-         font-size: 1rem;
+    .partner-content a{
+        font-size: 1rem;
     }
-    .partner-logo img {
+    .partner-content p{
+        font-size: 0.8rem;
+    }
+    .partner-item {
+        margin: 1rem 4px;
+    }
+    .partner-item {
+            display: block;
+    }
+    .partner-item {
+        display: flex;
+    }
+    .partner-logo {
         width: 40%;
-        padding-left: 11.4rem;
-    }
-    .partner-content a {
-        font-size: 1.4rem;
-   }
-    .partner-content  p{
-        font-size: 1.2rem;
-   }
+        padding: 0 0;
+     }
   }
  
   /* X-Large devices (large desktops, 1200px and up) */
  @media (min-width: 1200px) { 
-    .container{
-        width: calc(12*100%/18);
-        margin: auto;
-        margin-top: 3rem;
+   .partner-content a{
+    font-size: 1.3rem;
+   }
+   .partner-content p{
+    font-size: .9rem;
+   }
+   .partner-item {
+    margin: 1rem 4px;
+    }
+    .partner-item {
+        margin: 2rem 4px;
+        text-align: justify;
+        display: flex;
+    }
+    .partner-logo {
+        width: 40%;
      }
-     .partner-img {
-         display: flex;
-       
-     }
-     
-     .partner-box{
-         padding: 1.5rem 2rem;
-         background-color: #fff;
-         position: relative;
-         margin: 50px 0;
-     }
-     .note{
-        text-align: center;
-     }
-     .note a{
-         color: black;
-         text-decoration: none;
-     }
-     .partner-item {
-         margin: 2rem 4px;
-         text-align: justify;
-         display: flex;
-     }
-     .partner-content{
-        padding: 1rem 3rem;
-     }
-     .partner-content h2{
-        margin: 1rem 0;
-        text-decoration: none;
-     }
-     .partner-content a{
-        text-decoration: none;
-        color: #bd945f;
-     }
-     
   }
  
   /* XX-Large devices (larger desktops, 1400px and up) */
@@ -116,11 +90,14 @@
         margin: auto;
         margin-top: 3rem;
      }
-     .partner-img {
-         display: flex;
-       
+    
+     .partner-logo img{
+        width: 100%;
      }
-     .partner-box{
+     .partner-logo {
+        width: 40%;
+     }
+    .partner-box{
          padding: 1.5rem 2rem;
          background-color: #fff;
          position: relative;
@@ -136,19 +113,22 @@
      .partner-item {
          margin: 2rem 4px;
          text-align: justify;
-        display: flex;
+         display: flex;
      }
      .partner-content{
-        padding: 1rem 1rem;
+        padding: 0 1rem;
      }
      .partner-content h2{
         margin: 1rem 0;
         text-decoration: none;
      }
      .partner-content a{
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         text-decoration: none;
         color: #bd945f;
      }
-     
+     .partner-content p{
+        font-size: 1rem;
+       }
+       
   }

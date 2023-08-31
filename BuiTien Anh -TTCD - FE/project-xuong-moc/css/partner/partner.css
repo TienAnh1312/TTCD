@@ -15,11 +15,11 @@ body{
      display: flex;
    
  }
- .news-img img{
-     width: 95%;
-     
+ .partner-logo img{
+    width: 100%;
  }
- .partner-box{
+ 
+.partner-box{
      padding: 1.5rem 2rem;
      background-color: #fff;
      position: relative;
@@ -35,10 +35,10 @@ body{
  .partner-item {
      margin: 2rem 4px;
      text-align: justify;
-     display: flex;
+  
  }
  .partner-content{
-    padding: 1rem 3rem;
+    padding: 0 1rem;
  }
  .partner-content h2{
     margin: 1rem 0;

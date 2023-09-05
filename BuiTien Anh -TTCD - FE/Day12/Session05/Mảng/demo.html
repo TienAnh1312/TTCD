@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mảng</title>
+</head>
+<body>
+    <!-- Khai báo mảng -->
+    <script lang="JavaScript">
+        //khai báo với từ khóa new
+        var name_array = new Array();
+        //hoặc
+        var name_array = new Array(1,2,3);
+
+        //khai báo với cặp ngoặc vuông
+        var name_array = [];
+        //hoặc
+        var name_array =[1,2,3];
+    </script>
+
+    <!-- truy xuất mảng -->
+    <script lang="JavaScript">
+        //truy xuất các phần tử trong mảng. để truy cập đến phần tử -> ten_mang[vi_tri_phan_tu]
+        var t =new Array(1,2,3);
+        alert(t[0]);//kết quả là 1
+        alert(t[1]);//kết quả là 2
+        alert(t[2]);//kết quả là 3
+        
+        //dùng vòng lặp for để truy xuất mảng 
+        var name_array =[1,2,3];
+        for (var i=0; i<name_array.length;i++){
+            document.write(name_array[i]);
+        }
+
+        //dùng vòng lặp while để truy xuất
+        var name_array =[1,2,3];
+        var index=0;
+        while (index < name_array.length){
+            document.write(name_array[index]);
+            index++;
+        }
+    </script>
+</body>
+</html>

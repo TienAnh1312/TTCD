@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object trong JavaScript</title>
+</head>
+<body>
+    <!-- thuộc tính đối tượng (là những đặc điểm cần lưu trữ trong đối tượng) -->
+    <script lang="JavaScript">
+        //khởi tạo 
+        var emp = new Object();
+        //thêm thuộc tính 
+        emp.fullname='';
+        emp.email='';
+        emp.add='';
+        emp.gender='';
+
+        //2
+        var emp = {
+            fullname:'',
+            email:'',
+            add:'',
+            gender:'',
+        };
+
+        //3
+        var emp ={};
+        emp.fullname='';
+        emp.email='';
+        emp.add='';
+        emp.gender='';
+    </script>
+
+    <!-- phương thức đối tượng (hành động của đối tượng) -->
+    <script lang="JavaScript">
+        var emp = new Object();
+        //thêm phương thức
+        emp.addInfo = function(){
+            //......
+        };
+        emp.validateInfo = function(){
+            //......
+        }
+
+        //2
+        var emp ={ 
+            addInfo : function(){
+                //......
+            },
+            validateInfo : function(){
+
+            }
+        };
+
+        //3
+        var emp = {};
+        emp.addInfo = function(){
+            //.....
+        };
+        emp.validateInfo = function(){
+            //.....
+        };
+    </script>
+    <!-- Thao tác thuộc tính và phương thức đối tượng -->
+    <script lang="JavaScript">
+        //nếu gọi từ 1 hàm
+        var emp = {
+            fullname: "",
+            addInfo : function(){
+                this.fullname = "nguyen van a";
+            }
+        };
+
+        //2 - 1 hàm
+        var emp = {
+            fullname: "",
+            addInfo: function(){
+                var fullname = this.fullname;
+            }
+        }
+
+        //gọi trong hàm đối tượng
+        var emp ={
+            fullname:"",
+            addInfo:function(){
+                this.validateInfo();
+            },
+            validateInfo:function(){
+                //.......
+            }
+        }
+    </script>
+</body>
+</html>

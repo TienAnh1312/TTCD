@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //cho phép người dùng nhập vào các số a,b,c
+        var so_a = prompt("bạn hãy nhập vào số a : ");
+        var so_b = prompt("bạn hãy nhập vào số b : ");
+        var so_c = prompt("bạn hãy nhập vào số c : ");
+        //kiểm tra số a
+        if(so_a == 0){
+            //gọi đến function giải ptb1()
+            ptb1(so_b,so_c)
+         }
+        function ptb1(b,c){
+            if(b==0){
+                if(c==0){
+                    document.write("phương trình vô số nghiệm");
+                }else{
+                    document.write("phương trình vô nghiệm");
+                }
+            }else{
+                nghiem = -b/c;
+                document.write("phương trình có tập nghiệm là: " +nghiem);
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

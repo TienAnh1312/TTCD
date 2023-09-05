@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vòng lặp For ..in</title>
+</head>
+<body>
+    <script lang="JavaScript">
+        //Vòng lặp for ..in cho 1 mảng
+        var arr = ['JS','Loop','For ..in'];
+        for(var i in arr){
+            //thân vòng lặp
+            console.log(arr[i]);
+        }
+        //vòng lặp for ..in cho 1 Object
+        var obj ={
+            'name' : 'test object',
+            'type' : 'test',
+            'id'   : 12888
+        };
+        for (var i in obj){
+            console.log(obj[i]);
+        }
+    </script>
+</body>
+</html>

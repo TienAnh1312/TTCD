@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đối tượng Dom</title>
+</head>
+<body>
+    <script lang="JavaScript">
+        //tương tác với thẻ html thông qua thuộc tính Id
+        //lấy giá trị của thẻ input có id ="id name"
+        var element = document.getElementById('idname').value;
+        
+        //tương tác với thẻ html
+        var element = document.getElementsByTagName('h1');
+
+        //tương tác với thẻ thông qua thuộc tính class
+        var element = document.getElementsByClassName('input');
+
+        //tương tác với thẻ thông qua thuộc tính css selecter
+        var element = document.querySelectorAll("div input.website")
+    </script>
+</body>
+</html>

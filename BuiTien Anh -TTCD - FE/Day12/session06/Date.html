@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date trong JavaScript</title>
+</head>
+<body>
+    <script lang="JavaScript">
+        var object = new Date();
+        document.write(object);
+    </script>
+
+    <!-- khởi tạo đối tượng date -->
+    <script lang="JavaScript">
+        //lấy thời điểm hiện tại 
+        new Date();
+        //truyền vào tham số mili giây
+        new Date(miliseconds);
+        //tham số là chuỗi ngày tháng
+        new Date(dateString);
+        //tham số truyền vào gồm: năm, tháng, ngày, giờ, phút, giây, mili giâys
+        new Date(year, month, day, hours, minutes, seconds, miliseconds);
+    </script>
+    <!-- VD -->
+    <script lang="JavaScript">
+        //khởi tạo dối tượng và lấy thời gian hiện tại
+        var d = new Date();
+        d.getDate();
+        d.getDay();
+        d.getFullYear();
+        d.getYear();
+        d.getHours();
+        d.getMilliseconds();
+        d.getMinutes();
+        d.getMonth();
+        d.getSeconds();
+        d.getTime();
+    </script>
+</body>
+</html>

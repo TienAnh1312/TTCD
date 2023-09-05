@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hàm</title>
+</head>
+<body>
+    <!-- khai báo hàm sử dụng function ten_ham(var1, var2, var3) 
+    function là từ báo cho JS việc khai báo 1 tên hàm
+    var1 ,2, 3,... các tham số truyền vào trong hàm nếu có-->
+    <script lang="JavaScript">
+        function check_number(number)
+        {
+            if (number % 2 == 0){
+                alert(number + ' là số chẵn');
+            }
+            else{
+                alert(number + ' số lẻ');
+            }
+        }
+        // Sủ dụng hàm kiểm tra cho 5 số người dùng nhập vào
+        check_number(1);
+        check_number(2);
+        check_number(3);
+        check_number(4);
+        check_number(5);
+    </script>
+    <!-- giá trị trả về hàm của hàm return -->
+    <script lang="JavaScript">
+        //khai báo hàm 
+        function tinh_tong(a,b){
+            //trả về kết quả a+b
+            return a+b;
+        }
+        //sủ dụng 
+        var so1 = 1;
+        var so2 = 2;
+        //truyền so1 so2 vào hàm 
+        var ketqua = tinh_tong(so1, so2);
+        alert(ketqua);
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ví dụ mảng</title>
+    <script lang="JavaScript">
+        var arr=new Array(5,10,20,40,"50a");
+        function Tinhtong(mang){
+            var tong=0;
+            for(i=0;i<mang.length;i++)
+            tong+=mang[i];
+            return tong;    
+        }
+    </script>
+</head>
+<body>
+    <script>
+        var t=Tinhtong(arr);
+        document.write("<h2> Tổng giá trị các phần tử: <b>" +t);
+    </script>
+</body>
+</html>

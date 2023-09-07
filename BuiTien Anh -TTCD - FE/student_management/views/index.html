@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/site.css">
+
+    <link rel="stylesheet" href="../css/index.css">
+
+
+</head>
+
+<body>
+    <!--BEGIN: header -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand">
+                    <img src="https://devmaster.edu.vn/images/logo.png" alt="" style="width: 6rem;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item " style="cursor: pointer;">
+                            <a class="nav-link text-dark ">Home</a>
+                        </li>
+                        <li class="nav-item" style="cursor: pointer;">
+                            <a class="nav-link text-dark">Trash</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--END: header -->
+
+    <!--BEGIN: main -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="container">
+                <form>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title mb-3">STUDENT LIST</h2>
+                            <nav class="navbar navbar-light bg-light justify-content-between mb-3 px-2 rounded">
+                                <div class="form-inline d-flex">
+                                    <div class="input-group" style="margin-right:0.5rem">
+                                        <input value="" class="form-control" type="search" placeholder="Search"
+                                            aria-label="Search" style="width:65%">
+                                        <select class="form-select bg-secondary text-white" id="filter"
+                                            style="width:35%">
+                                            <option class="bg-white text-black" value="0">Name
+                                            </option>
+                                            <option class="bg-white text-black" value="1">ID
+                                            </option>
+                                            <option class="bg-white text-black" value="2">Class
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-outline-success my-2 my-sm-0 d-flex align-items-center"
+                                        type="button">
+                                        <i class="bi bi-search"></i>
+                                        <span style="margin-left:0.5rem">Search</span>
+                                    </button>
+                                </div>
+                                <div class="form-inline">
+                                    <button type="button" class="btn btn-success add-new">
+                                        <i class="bi bi-person-plus-fill"></i>
+                                        Add new
+                                    </button>
+                                </div>
+                            </nav>
+                            <table class="table table-bordered bg-light" id="render">
+                                <thead>
+                                    <tr class="bg-secondary text-light" >
+                                        <th scope="col">#</th>
+                                        <th scope="col" class="text-nowrap">ID</th>
+                                        <th scope="col" class="text-nowrap">Full Name</th>
+                                        <th scope="col" class="text-nowrap">Class</th>
+                                        <th scope="col" class="text-nowrap">Faculty Name</th>
+                                        <th scope="col" class="text-nowrap">Address</th>
+                                        <th scope="col" class="text-nowrap">Phone Number</th>
+                                        <th scope="col" class="text-nowrap"> Email</th>
+                                        <th scope="col" class="text-center">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- <tr class="align-middle">
+                                        <th scope="row">1</th>
+                                        <td>SD01</td>
+                                        <td>Bùi Tiến Anh</td>
+                                        <td>IT1</td>
+                                        <td>Công nghệ thông tin</td>
+                                        <td>Hà Nội</td>
+                                        <td>0989898222</td>
+                                        <td>thanh.hung.st302@gmail.com</td>
+                                        <td class="d-flex justify-content-evenly">
+                                            <button type="button" class="btn btn-outline-primary">
+                                                <i class="bi bi-eye"></i>
+                                                Details
+                                            </button>
+                                            <button type="button" class="btn btn-outline-info"
+                                                style="margin:0 0.5rem 0 0.5rem;">
+                                                <i class="bi bi-arrow-repeat"></i>
+                                                Update
+                                            </button>
+                                            <button type="button" class="btn-Delete btn btn-outline-danger " data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal" onclick="">
+                                                <i class="bi bi-trash3"></i>
+                                                Delete
+                                            </button>
+                                        </td>
+                                    </tr> -->
+                                   
+                                </tbody>
+                            </table>
+
+                            <nav aria-label="Page navigation example" class="d-flex justify-content-between">
+                                <div class="input-group mb-3 w-auto border border-success rounded-2">
+                                    <label class="input-group-text bg-white text-success border-0" for="pageSize">Record
+                                        per view</label>
+                                    <select name="pageSize" class="form-select bg-success text-white border-0"
+                                        id="pageSize">
+                                        <option value="5" class="bg-white text-black">5</option>
+                                        <option value="10" class="bg-white text-black">10</option>
+                                        <option value="20" class="bg-white text-black">20</option>
+                                    </select>
+                                </div>
+                                <ul class="pagination d-flex justify-content-center">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <i class="text-success bi bi-caret-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item" style="cursor:pointer"><a
+                                            class="page-link bg-success text-white">1</a></li>
+                                    <li class="page-item" style="cursor:pointer"><a class="page-link text-success">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <i class="text-success bi bi-caret-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+    <!--END: main -->
+
+
+    <!--BEGIN: Modal -->
+    <div class="student-details" style="display: none;">
+        <div class="container mt-4 mb-4">
+            <div class="card ">
+                <div class="card-header">
+                    <h3>STUDENT DETAILS INFORMATION</h3>
+                </div>
+                <div class="card-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="Name" class="form-label">Full name</label>
+                            <input type="text" class="form-control" id="Name" placeholder="Full name">
+                        </div>
+                        <div class="col-md-3">
+                        <label for="DateBirth" class="form-label">Date of birth</label>
+                            <input name="DateBirth" type="date" class="form-control" id="DateBirth"
+                                placeholder="Date of birth">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="Gender" class="form-label">Gender</label>
+                            <select id="Gender" class="form-select">
+                                <option value="-1" selected disabled>Choose...</option>
+                                <option value="1">Male</option>
+                                <option value="0">Female</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="PhoneNumber" class="form-label">Phone Number</label>
+                            <input name="PhoneNumber" value="" type="tel" class="form-control" id="PhoneNumber"
+                                placeholder="PhoneNumber">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Email" class="form-label">Email</label>
+                            <input name="Email" value="" type="email" class="form-control" id="Email"
+                                placeholder="Email">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="Address" class="form-label">Address</label>
+                            <input name="Address" value="" type="text" class="form-control" id="Address"
+                                placeholder="Address">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="Faculty" class="form-label">Faculty</label>
+                            <select id="Faculty" class="form-select">
+                                <option value="" selected disabled>Choose faculty...</option>
+                                <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+                                <option value="Cơ khí">Cơ khí</option>
+                                <option value="Ô tô">Ô tô</option>
+                                <option value="Điện tử">Điện tử</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Class" class="form-label">Class name</label>
+                            <select name="ClassId" id="Class" class="form-select">
+                                <option value="" selected disabled>Choose class...</option>
+                                <option value="0">IT1</option>
+                                <option value="1">IT2</option>
+                                <option value="2">IT3</option>
+                            </select>
+                        </div>
+<div class="mb-3 d-flex justify-content-between">
+                            <button class="btn btn-warning" type="reset">
+                                <i class="bi bi-arrow-clockwise"></i>
+                                Reset
+                            </button>
+                            <button class="btn-cancel btn btn-warning" type="button" style="margin: 0 1rem;">
+                                Cancel
+                            </button>
+                            <button class="btn btn-success" type="button" onclick="handleClickAdd()">
+                                <i class="bi bi-person-plus-fill"></i>
+                                Add
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END: Modal -->
+       <!--BEGIN: Modal -->
+       <div class="student-details-update" style="display: none;">
+        <div class="container mt-4 mb-4">
+            <div class="card ">
+                <div class="card-header">
+                    <h3>STUDENT DETAILS UPDATE</h3>
+                </div>
+                <div class="card-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="Name" class="form-label">Full name</label>
+                            <input type="text" class="form-control" id="Name" placeholder="Full name">
+                        </div>
+                        <div class="col-md-3">
+                        <label for="DateBirth" class="form-label">Date of birth</label>
+                            <input name="DateBirth" type="date" class="form-control" id="DateBirth"
+                                placeholder="Date of birth">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="Gender" class="form-label">Gender</label>
+                            <select id="Gender" class="form-select">
+                                <option value="-1" selected disabled>Choose...</option>
+                                <option value="1">Male</option>
+                                <option value="0">Female</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="PhoneNumber" class="form-label">Phone Number</label>
+                            <input name="PhoneNumber" value="" type="tel" class="form-control" id="PhoneNumber"
+                                placeholder="PhoneNumber">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Email" class="form-label">Email</label>
+                            <input name="Email" value="" type="email" class="form-control" id="Email"
+                                placeholder="Email">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="Address" class="form-label">Address</label>
+                            <input name="Address" value="" type="text" class="form-control" id="Address"
+                                placeholder="Address">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="Faculty" class="form-label">Faculty</label>
+                            <select id="Faculty" class="form-select">
+                                <option value="" selected disabled>Choose faculty...</option>
+                                <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+                                <option value="Cơ khí">Cơ khí</option>
+                                <option value="Ô tô">Ô tô</option>
+                                <option value="Điện tử">Điện tử</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Class" class="form-label">Class name</label>
+                            <select name="ClassId" id="Class" class="form-select">
+                                <option value="" selected disabled>Choose class...</option>
+                                <option value="0">IT1</option>
+                                <option value="1">IT2</option>
+                                <option value="2">IT3</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <button class="btn btn-warning" type="reset">
+                                <i class="bi bi-arrow-clockwise"></i>
+                                Reset
+                            </button>
+                            <button class="btn-cancel btn btn-warning" type="button" style="margin: 0 1rem;">
+                                Cancel
+                            </button>
+                            <button class=" btn btn-success" type="button" onclick="handleClickUpdate()">
+                                <i class="bi bi-person-plus-fill"></i>
+                                Update
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END: Modal -->
+<!--BEGIN: Modal -->
+<div class="student-details-details" style="display: none;" >
+    <div class="container mt-4 mb-4">
+        <div class="card ">
+            <div class="card-header">
+                <h3>STUDENT DETAILS UPDATE</h3>
+            </div>
+            <div class="card-body">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="Name" class="form-label">Full name</label>
+                        <input type="text" class="form-control" id="Name" placeholder="Full name">
+                    </div>
+                    <div class="col-md-3">
+                    <label for="DateBirth" class="form-label">Date of birth</label>
+                        <input name="DateBirth" type="date" class="form-control" id="DateBirth"
+                            placeholder="Date of birth">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="Gender" class="form-label">Gender</label>
+                        <select id="Gender" class="form-select">
+                            <option value="-1" selected disabled>Choose...</option>
+                            <option value="1">Male</option>
+                            <option value="0">Female</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="PhoneNumber" class="form-label">Phone Number</label>
+                        <input name="PhoneNumber" value="" type="tel" class="form-control" id="PhoneNumber"
+                            placeholder="PhoneNumber">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Email" class="form-label">Email</label>
+                        <input name="Email" value="" type="email" class="form-control" id="Email"
+                            placeholder="Email">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="Address" class="form-label">Address</label>
+                        <input name="Address" value="" type="text" class="form-control" id="Address"
+                            placeholder="Address">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="Faculty" class="form-label">Faculty</label>
+                        <select id="Faculty" class="form-select">
+                            <option value="" selected disabled>Choose faculty...</option>
+                            <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+                            <option value="Cơ khí">Cơ khí</option>
+                            <option value="Ô tô">Ô tô</option>
+                            <option value="Điện tử">Điện tử</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Class" class="form-label">Class name</label>
+                        <select name="ClassId" id="Class" class="form-select">
+                            <option value="" selected disabled>Choose class...</option>
+                            <option value="0">IT1</option>
+                            <option value="1">IT2</option>
+                            <option value="2">IT3</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 d-flex justify-content-between">
+                        <button class="btn-cancel btn btn-warning" type="button" style="margin: 0 1rem;">
+                            Cancel
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END: Modal -->
+    <!--BEGIN: footer -->
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - StudentManagement - <a>HugNT</a>
+        </div>
+    </footer>
+    <!--END: footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="../js/index.js"> </script> -->
+    <script src="../js/index2.js"></script>
+
+</body>
+
+</html>

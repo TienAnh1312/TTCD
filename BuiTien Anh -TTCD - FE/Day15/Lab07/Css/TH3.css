@@ -1,0 +1,22 @@
+#main{
+    width: 670px;
+    height: 446px;
+    margin: 0 auto;
+}
+#thum ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#thum ul li{
+    float: left;
+    margin-right: 2px;
+}
+#thum ul li a img {
+    width: 105px;
+    border: solid 2px #ccc;
+}
+.actived{
+    border: solid 4px red !important;
+}
+

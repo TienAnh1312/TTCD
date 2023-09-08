@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../TH4/TH4.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(document).ready(function($){
+        //load file html vào id content
+        $("#content").load("tabs/html.html");
+        $("#main ul li a").click(function(event){
+            //xóa class selected của thẻ a
+            $("a").removeClass('selected');
+            //lấy id của thẻ a  đc click
+            id = event.target.id;
+            //add lại class selected vào thẻ a có id đc click
+            $("#"+id).addClass('selected');
+            //load lại content vào thẻ id container
+            $("#content").load("tabs/"+id+".html")
+        })
+    })
+</script>
+</head>
+<body>
+    <div id="main" class="clearfix">
+        <ul class="clearfix">
+            <li><a href="javascript:void(0)" class="selected" id="html">HTML</a></li>
+            <li><a href="javascript:void(0)" id="css">CSS</a></li>
+            <li><a href="javascript:void(0)" id="jquery">JQUERY</a></li>
+            <li><a href="javascript:void(0)" id="php">PHP</a></li>
+        </ul>
+        <div id="content">
+        </div>
+    </div>
+</body>
+</html>

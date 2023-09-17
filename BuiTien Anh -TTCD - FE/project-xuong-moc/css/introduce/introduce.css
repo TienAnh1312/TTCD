@@ -1,24 +1,30 @@
 *{
     margin: 0;
-    padding: 0 ;
+    padding: 0;
 }
+a{
+    text-decoration: none;
+}
+
 body{
-   
-    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 /* header */
 header nav {
     display: flex;
     align-items: center;
+  
     margin: auto;
     justify-content: space-between;
     padding: 1rem;
 }
 .menu-item a{
-    text-decoration: none;
     color: black;
 }
 header nav .menu{
+    display: flex;
     justify-content: space-between;
 }
 header nav .menu .menu-item {
@@ -42,49 +48,6 @@ header nav .menu .menu-item:hover::after{
     width: 100%;
 
 }
-.container{
-    width: calc(12*100%/18);
-    margin: auto;
-    margin-top: 3rem;
- }
- .partner-img {
-     display: flex;
-   
- }
- .partner-logo img{
-    width: 100%;
- }
- 
-.partner-box{
-     padding: 1.5rem 2rem;
-     background-color: #fff;
-     position: relative;
-     margin: 50px 0;
- }
- .note{
-    text-align: center;
- }
- .note a{
-     color: black;
-     text-decoration: none;
- }
- .partner-item {
-     margin: 2rem 4px;
-     text-align: justify;
-  
- }
- .partner-content{
-    padding: 0 1rem;
- }
- .partner-content h2{
-    margin: 1rem 0;
-    text-decoration: none;
- }
- .partner-content a{
-    text-decoration: none;
-    color: #bd945f;
- }
-
 /* footer */
 footer{
     margin-top: auto;

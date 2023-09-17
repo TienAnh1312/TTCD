@@ -9,42 +9,46 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="/css/font.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="../css/index/index.css">
+    <link rel="stylesheet" href="../css/index/indexReponsive.css">
 </head>
-<body>
-    <!-- BEGIN: HEADER -->
+<boddy>
     <header>
-        <nav>
+        <nav class="container">
             <div class="logo">
-                <img src="/images/logo.png" alt="" style="width: 80%;">
+                <img src="../images/logo.png" alt="" style="width: 80%;">
             </div>
-            <ul class="menu ">
-                <li class="menu-item"><a href="#">TRANG CHỦ</a></li>
-                <li class="menu-item"><a href="#">GIỚI THIỆU</a></li>
-                <li class="menu-item"><a href="#">SẢN PHẨM</a></li>
-                <li class="menu-item"><a href="#">TIN TỨC</a></li>
-                <li class="menu-item"><a href="#">ĐỐI TÁC</a></li>
-                <li class="menu-item"><a href="#">LIÊN HỆ</a></li>     
+            <ul class="menu">
+                <li class="menu-item"><a href="../view/index.html">TRANG CHỦ</a></li>
+                <li class="menu-item"><a href="">GIỚI THIỆU</a></li>
+                <li class="menu-item"><a href="">SẢN PHẨM</a></li>
+                <li class="menu-item"><a href="">TIN TỨC</a></li>
+                <li class="menu-item"><a href="../view/partner.html">ĐỐI TÁC</a></li>
+                <li class="menu-item"><a href="../view/contact.html">LIÊN HỆ</a></li>
             </ul>
-            <i class="fa-solid fa-bars" style="display: none;" onclick="handleclickMenu()"></i>
+            <i class="fa-solid fa-bars icon-link" onclick="handlecClickMenu()"></i>
         </nav>
     </header>
-    <!-- END: HEADER -->
-
+    <!-- END: header -->
     <main>
          <!-- BEGIN: BANNER -->
         <section class="banner">
-            <div class="container">
+            <div class="containers">
                 <div class="banner-img">
-                    <img src="/images/banner.png" alt="">
+                    <img src="/images/banner.png" alt="" class="w-100">
                 </div>
-                <div class="introduction">
+                <div class="introduction ">
                     <h1 style="color: #2c2e53;">THẾ GIỚI NỘI THẤT SỐ 1 VIỆT NAM</h1>
                     <h1 style="color: #bd945f;">HOÀNG HOAN</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi est enim eveniet velit esse cupiditate,
-                       neque molestiae veniam cumque cum nesciunt ipsam maiores mollitia provident dolores, laboriosam ut, modi dolor!
+                    <p>Sứ mệnh của chúng tôi là kết hợp hài hòa giữa ý tưởng và mong muốn của khách hàng, đem lại những phút giây thư giãn tuyệt vời bên gia đình và những người thân yêu
                     </p>
                     <button>LIÊN HỆ NGAY</button>
                 </div>
@@ -52,39 +56,39 @@
         </section>
         <!-- END: BANNER -->
         <!-- BEGIN:PRODUCT -->
-        <section class="product">
+        <section class="product pt-2">
             <div class="container">
                 <div class="category">      
                         
-                            <div class="slider">
+                            <div class="slider text-center">
                                 <img src="/images/loai-sp/icon-phong-khach.png" alt="">
                                 <p>Phòng khách</p>
                             </div>
-                            <div class="slider">
+                            <div class="slider text-center">
                                 <img src="/images/loai-sp/icon-phong-ngu.png" alt="">
                                 <p>Phòng ngủ</p>
                             </div>
-                            <div class="slider">
+                            <div class="slider text-center">
                                 <img src="/images/loai-sp/icon-phong-bep.png" alt="">
                                 <p>Phòng bếp</p>
                             </div>
-                            <div class="slider">
+                            <div class="slider text-center">
                                 <img src="/images/loai-sp/icon-phong-tam.png" alt="">
                                 <p>Phòng tắm</p>
                             </div>
-                            <div class="slider">
+                            <div class="slider text-center">
                                 <img src="/images/loai-sp/icon-cau-thang.png" alt="">
                                 <p>Phòng tắm</p>
                             </div>
-                            <div class="slider">
+                            <div class="slider text-center">
                                 <img src="/images/loai-sp/icon-do-trang-tri.png" alt="">
                                 <p>Phòng tắm</p>
                             </div>
-                            <div class="slider">
+                            <div class="slider text-center">
                                 <img src="/images/loai-sp/icon-tre-em.png" alt="">
                                 <p>Phòng tắm</p>
                             </div>
-                            <div class="slider">
+                            <div class="slider text-center">
                                 <img src="/images/loai-sp/icon-van-phong.png" alt="">
                                 <p>Phòng tắm</p>
                             </div>
@@ -96,88 +100,63 @@
                    </div>
                     <div class=" slide-product" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
                         
-                        <div class="product-item">
+                        <div class="product-item text-center">
                             <img src="/images/san-pham-noi-bat/sp-1.jpg" alt="">
-                            <h3>GIƯỜNG CHÂU ÂU</h3>
-                            <div class="stars">    
-                                <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                <label class="star star-5" for="star-5"></label>
-                                <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                <label class="star star-4" for="star-4"></label>
-                                <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                <label class="star star-3" for="star-3"></label>
-                                <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                <label class="star star-2" for="star-2"></label>
-                                <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                <label class="star star-1" for="star-1"></label>
+                            <h3 class="h5" >GIƯỜNG CHÂU ÂU</h3>
+                            <div class="star">    
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
                             </div>
                             <p>(Size lớn trắng sữa)</p>
                         </div>                    
-                        <div class="product-item">
+                        <div class="product-item text-center text-center">
                             <img src="/images/san-pham-noi-bat/phong-khach-ban-uong-nuoc.png" alt="">
-                            <h3>GIƯỜNG CHÂU ÂU</h3>
-                            <div class="stars">
-                                <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                <label class="star star-5" for="star-5"></label>
-                                <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                <label class="star star-4" for="star-4"></label>
-                                <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                <label class="star star-3" for="star-3"></label>
-                                <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                <label class="star star-2" for="star-2"></label>
-                                <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                <label class="star star-1" for="star-1"></label>
+                            <h3 class="h5">GIƯỜNG CHÂU ÂU</h3>
+                            <div class="text-center star">
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
                             </div>
                             <p>(Size lớn trắng sữa)</p>
                         </div>                    
-                        <div class="product-item">
+                        <div class="product-item text-center">
                             <img src="/images/san-pham-noi-bat/phong-khach-ban-uong-nuoc-2.png" alt="">
-                            <h3>GIƯỜNG CHÂU ÂU</h3>
-                            <div class="stars">
-                                <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                <label class="star star-5" for="star-5"></label>
-                                <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                <label class="star star-4" for="star-4"></label>
-                                <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                <label class="star star-3" for="star-3"></label>
-                                <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                <label class="star star-2" for="star-2"></label>
-                                <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                <label class="star star-1" for="star-1"></label>
+                            <h3 class="h5">GIƯỜNG CHÂU ÂU</h3>
+                            <div class="text-center star">
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
                             </div>
                             <p>(Size lớn trắng sữa)</p>
                         </div>                    
-                        <div class="product-item">
+                        <div class="product-item text-center">
                             <img src="/images/san-pham-noi-bat/ke-dau-giuong.png" alt="">
-                            <h3>GIƯỜNG CHÂU ÂU</h3>
-                            <div class="stars">
-                                <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                <label class="star star-5" for="star-5"></label>
-                                <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                <label class="star star-4" for="star-4"></label>
-                                <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                <label class="star star-3" for="star-3"></label>
-                                <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                <label class="star star-2" for="star-2"></label>
-                                <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                <label class="star star-1" for="star-1"></label>
+                            <h3 class="h5">GIƯỜNG CHÂU ÂU</h3>
+                            <div class="text-center star">
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
                             </div>
                             <p>(Size lớn trắng sữa)</p> 
                         </div>  
-                        <div class="product-item">
+                        <div class="product-item text-center">
                             <img src="/images/san-pham-noi-bat/giuong-ngu.png" alt="">
-                            <h3>GIƯỜNG CHÂU ÂU</h3>
-                            <div class="stars">
-                                <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                <label class="star star-5" for="star-5"></label>
-                                <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                <label class="star star-4" for="star-4"></label>
-                                <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                <label class="star star-3" for="star-3"></label>
-                                <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                <label class="star star-2" for="star-2"></label>
-                                <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                <label class="star star-1" for="star-1"></label>
+                            <h3 class="h5">GIƯỜNG CHÂU ÂU</h3>
+                            <div class="text-center star">
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
+                                <i class="fa-sharp fa-solid fa-star text-brown"></i>
                             </div>
                             <p>(Size lớn trắng sữa)</p> 
                         </div>  
@@ -214,71 +193,24 @@
                                 <br>
                             </p> 
                             <div class="about--list-img">
-                                <div class="img-we-img">
+                                <div class="list-img-item">
                                     <img src="/images/ve-chung-toi/ve-chung-toi-1.jpg" alt="">
                                 </div>
-                                <div class="img-we-img">
+                                <div class="list-img-item">
                                     <img src="/images/ve-chung-toi/ve-chung-toi-2.jpg" alt="">
                                 </div>
-                                <div class="img-we-img">
+                                <div class="list-img-item">
                                     <img src="/images/ve-chung-toi/ve-chung-toi-3.jpg" alt="">
                                 </div>
-                                <div class="img-we-img">
+                                <div class="list-img-item">
                                     <img src="/images/ve-chung-toi/ve-chung-toi-4.jpg " alt="">
                                 </div>      
                             </div>            
                       </div> 
                   </div>          
                 </div>
-                <h2>TẠI SAO NÊN CHỌN HOÀNG HOAN</h2>
-                <!-- BEGIN:WHY (SAI)-->
-                <!-- <div>
-                   <ul class="wecome-list">
-                        <div class="list_frist">
-                            <div class="frist_item">
-                                <li class="wecome--list-item">     
-                                    <div class="conten">
-                                        <img src="/images/ve-chung-toi/chinh-sach.jpg" alt="">
-                                        <p><span class="content_letter">CHÍNH SÁCH GIÁ</span> <br>
-                                           Tốt nhất và công khai giá trên website</p>
-                                    </div>
-                                </li>
-                            </div>
-                            <div class="secont_item">
-                                <li class="wecome--list-item">     
-                                    <div class="conten">
-                                        <img src="/images/ve-chung-toi/san-pham.jpg" alt="">
-                                        <p><span class="content_letter">SẢN XUẤT</span> <br>
-                                           Trực tiếp sản xuất bởi đội ngũ nhân viên hàng đầu</p>
-                                    </div>
-                                </li>
-                            </div>
-                        </div>
-                       <div class="list_secont">
-                        <div class="frist_item">
-                            <li class="wecome--list-item">     
-                                <div class="conten">
-                                    <img src="/images/ve-chung-toi/chat-luong.jpg" alt="">
-                                    <p><span class="content_letter">CHẤT LƯỢNG</span> <br>
-                                       Cam kết chất lượng sản phẩm và tiến độ thi công</p>
-                                </div>
-                            </li>
-                        </div>
-                        <div class="secont_item">
-                            <li class="wecome--list-item">     
-                                <div class="conten">
-                                    <img src="/images/ve-chung-toi/bao-hanh.jpg" alt="">
-                                    <p><span class="content_letter">BẢO HÀNH</span><br>
-                                       Dịch vụ bảo hành sản phẩm tốt nhất khu vực</p>
-                                </div>
-                            </li>
-                        </div>
-                       </div>     
-                   </ul>
-                </div> -->
-                <!-- END:WHY (SAI)-->
-
-                <!-- BEGIN:WHY-->
+                <h2 class="why_h2">TẠI SAO NÊN CHỌN HOÀNG HOAN</h2>
+                
                 <div>
                     <div class="why">
                         <div class="why_item">
@@ -332,12 +264,12 @@
 <!-- END:ABOUT-US -->
 
         <section class="news">
-            <h2>TIN TỨC</h2>
+            <h2 class="text-center mt-10">TIN TỨC</h2>
             <div class="container">
                 <div class="divide_news">
-                    <div class="widtd_news w-50">
+                    <div class="widtd_news">
                         <div>
-                            <img src="/images/tin-tuc/tintuc-1.jpg" alt="">
+                            <img src="/images/tin-tuc/tintuc-1.jpg" alt="" class="">
                             <div class="content">
                                 <h3><a href="">Cách chọn Sofa cho phòng khách nhà bạn thêm phần sang trọng</a></h3>
                                 <p>Attention should be paid to every aspect of the sofa such as size, material,
@@ -346,7 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="widtd_news w-50">
+                    <div class="widtd_news">
                         <div class="news-item">
                             <div>
                                 <img src="/images/tin-tuc/tintuc-1.png" alt="">
@@ -382,7 +314,7 @@
                         </div>
                         <div class="news-item">
                             <div class="news_button">
-                                <button>XEM THÊM --></button>
+                                <button class="border-0">XEM THÊM --></button>
                             </div>
                         </div>
                     </div>
@@ -410,7 +342,7 @@
        
          <!-- BEGIN contact -->
         <section class="contact">
-            <div class="container">
+            <div class="container-bg">
                 <img class="contact-img" src="/images/lienhe-1-transformeds.png" alt="">
 
                 <div class="title">
@@ -430,63 +362,104 @@
         <!-- BEGIN contact -->
     </main>
 
-    <!-- BEGIN: footer -->
+    <!-- Begin: footer  -->
     <footer>
-        <div class="container">
-            <div class="infor">
+        <div class="justify-content-between container pt-5 footer">
+            <div>
                 <div class="title">
-                    THÔNG TIN CHUNG
+                    <span>THÔNG TIN CHUNG</span>
                 </div>
-                <ul class="list-infor">
-                    <li style="font-size: 1.2rem; font-family:'font-medium' ;"></i>CÔNG TY THHH HOANG HOAN</li>
-                    <li><i class="fa-solid fa-phone"></i>&nbsp;0828345288</li>
-                    <li><i class="fa-solid fa-envelope"></i>&nbsp;tienanh@gmail.com</li>
-                    <li><i class="fa-solid fa-location-dot"></i> &nbsp;Chiêm hóa, Tuyên Quang</li>
-                </ul>
-            </div>
-            <div class="about-us">
-                <div class="title">
-                    VỀ CHÚNG TÔI         
-                </div>
-                <ul class="list-pages">
-                    <li><a href="#">Giới thiệu</a></li>
-                    <li><a href="#">sản phẩm</a></li>
-                    <li><a href="#">Tin tức</a></li>
-                    <li><a href="#">Đối tác</a></li>
-                    <li><a href="#">Liên hệ</a></li>
-                </ul>
-            </div>
-            <div class="contact">
-                <div class="title">
-                   KẾT NỐI VỚI CHÚNG TÔI
-                </div>
-                <ul>
+                <ul class="infor">
+                    <li style="font-size: 1.37rem; font-family: 'font-medium';">CÔNG TY TNHH HOÀNG HOAN</li>
                     <li>
-                        <div>
-                            <img src="/images/facebook.png" alt="">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>&nbsp;09999.999.999</span>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>&nbsp;cskh@hoanghoan.vn</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>&nbsp;Số 1 Nguyễn Trãi, Thanh Xuân, Hà Nội</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="title">
+                    <span>VỀ CHÚNG TÔI</span>
+                </div>
+                <ul class="about-us">
+                    <li>
+                        <a>Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a>Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a>Tin tức</a>
+                    </li>
+                    <li>
+                        <a>Đối tác</a>
+                    </li>
+                    <li>
+                        <a>Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="title">
+                    <span>KẾT NỐI VỚI CHÚNG TÔI</span>
+                </div>
+                <ul class="contact">
+                    <li class="d-flex mb-3">
+                        <div class="img-social">
+                            <img src="../images/facebook.png" alt="">
                         </div>
-                        <div>
-                            <img src="/images/zalo.png" alt="">
+                        <div class="img-social">
+                            <img src="../images/zalo.png" alt="">
                         </div>
-                        <div>
-                            <img src="/images/mail.png" alt="">
+                        <div class="img-social">
+                            <img src="../images/mail.png" alt="">
                         </div>
                     </li>
                     <li>
-                        <div>
-                            <img src="/images/xacnhan-bocongthong.png" alt="">
-                        </div>
+                        <img src="../images/xacnhan-bocongthong.png" alt="">
                     </li>
                 </ul>
             </div>
         </div>
     </footer>
+    <!-- End: footer  -->
      <!-- END: footer -->
      <!-- slick -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
+    <!-- boostrap v5.3 js -->
+    <!-- dropdowns, popovers, or tooltips -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+
+    <!-- all -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" 
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
+    </script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="../js/index.js"></script>
+    <script src="../js/index2.js"></script>
+    <!-- slick -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
+        
+    </script>
+    <script>
+        
         $(document).ready(function(){
             // $('.slide-product').slick();
             $('.slide-product').slick({
@@ -525,9 +498,9 @@
                 ]
                 });
         });
-        function handleclickMenu(){
-            document.querySelector(".menu").classList.toggle("responsive-menu")
-        }
+        function handlecClickMenu(){
+            document.querySelector(".menu").classList.toggle("response-menu")
+         }
     </script>
 </body>
 </html>

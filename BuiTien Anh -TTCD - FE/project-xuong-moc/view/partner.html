@@ -4,12 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>partner</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="/css/font.css">
     <link rel="stylesheet" href="/css/partner/partner_reponsive.css">
     <link rel="stylesheet" href="/css/partner/partner.css">
    
 </head>
 <body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="../images/logo.png" alt="" style="width: 80%;">
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><a href="../view/index.html">TRANG CHỦ</a></li>
+                <li class="menu-item"><a href="">GIỚI THIỆU</a></li>
+                <li class="menu-item"><a href="">SẢN PHẨM</a></li>
+                <li class="menu-item"><a href="">TIN TỨC</a></li>
+                <li class="menu-item"><a href="../view/partner.html">ĐỐI TÁC</a></li>
+                <li class="menu-item"><a href="../view/contact.html">LIÊN HỆ</a></li>
+            </ul>
+            <i class="fa-solid fa-bars icon-link" onclick="handlecClickMenu()"></i>
+        </nav>
+    </header>
     <section class="partner">
             <div class="container">
                 <div class="partner-box">
@@ -105,5 +134,90 @@
                 </div>
             </div>
     </section>
+    <footer>
+        <div class="justify-content-between container pt-5 footer">
+            <div>
+                <div class="title">
+                    <span>THÔNG TIN CHUNG</span>
+                </div>
+                <ul class="infor">
+                    <li style="font-size: 1.37rem; font-family: 'font-medium';">CÔNG TY TNHH HOÀNG HOAN</li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>&nbsp;09999.999.999</span>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>&nbsp;cskh@hoanghoan.vn</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>&nbsp;Số 1 Nguyễn Trãi, Thanh Xuân, Hà Nội</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="title">
+                    <span>VỀ CHÚNG TÔI</span>
+                </div>
+                <ul class="about-us">
+                    <li>
+                        <a>Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a>Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a>Tin tức</a>
+                    </li>
+                    <li>
+                        <a>Đối tác</a>
+                    </li>
+                    <li>
+                        <a>Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="title">
+                    <span>KẾT NỐI VỚI CHÚNG TÔI</span>
+                </div>
+                <ul class="contact">
+                    <li class="d-flex mb-3">
+                        <div class="img-social">
+                            <img src="../images/facebook.png" alt="">
+                        </div>
+                        <div class="img-social">
+                            <img src="../images/zalo.png" alt="">
+                        </div>
+                        <div class="img-social">
+                            <img src="../images/mail.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../images/xacnhan-bocongthong.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+     <!-- boostrap v5.3 js -->
+    <!-- dropdowns, popovers, or tooltips -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+
+    <!-- all -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" 
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
+    </script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        function handlecClickMenu(){
+            document.querySelector(".menu").classList.toggle("response-menu")
+         }
+    </script>
 </body>
 </html>

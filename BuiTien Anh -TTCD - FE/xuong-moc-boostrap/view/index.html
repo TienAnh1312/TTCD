@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boostrap v5 - Xuong Moc</title>
+    <title>Xuong Moc</title>
 
     <!-- boostrap v5.3 css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- Add the slick-theme.css if you want default styling -->
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+     <!-- Add the slick-theme.css if you want default styling -->
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 
     <!-- css -->
@@ -78,10 +83,13 @@
                         <div class="dropdown">
                             <span class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sắp xếp</span>
                             <div class="dropdown-menu dropdown-menu-end border-color">
+                                <div class="dropdow-item" id="SortDefault">Mặc định</div>
                                 <div class="dropdow-item">Mới nhất</div>
                                 <div class="dropdow-item">Phổ biến nhất</div>
                                 <div class="dropdow-item">Từ thấp đến cao</div>
                                 <div class="dropdow-item">Từ cao đến thấp</div>
+                                <div class="dropdow-item" id="sortRate">Theo đánh giá</div>
+                                <div class="dropdow-item" id="SortName">Theo tên</div>
                             </div>
                         </div>
                     </div>
@@ -89,258 +97,9 @@
                 <div class="products btn-light p-5 bg-light">
                     <div class="title-pg text-blue h3 py-2">PHÒNG KHÁCH</div>
                     <div class="row">
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp1.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">BÀN UỐNG NƯỚC</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
+                        <!-- RENDER-LIST-PRODUCT  -->
 
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp2.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">BÀN UỐNG NƯỚC 2</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
 
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp3.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">KỆ TV</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp4.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">KỆ ĐỂ ĐỒ </h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp5.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">SOFA</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp6.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">SOFA 2</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <p><span>(Size vừa, nâu vân gỗ)</span><br>
-                                        8.999.000 VNĐ</p>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp7.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">BÀN UỐNG NƯỚC</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp8.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">BÀN UỐNG NƯỚC</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp9.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">BÀN UỐNG NƯỚC</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp10.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">KỆ ĐỒ</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp11.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">KỆ ĐỒ 2</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3 col-sm-6">
-                            <div class="">
-                                <img src="../images/xemtatca_sanpham/sp12.png" alt="">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title text-blue text-center ">GIÁ ĐỒ</h5>
-                                <span class="text-center">
-                                    <div>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                        <i class="fa-sharp fa-solid fa-star text-brown"></i>
-                                    </div>
-
-                                    <span class="desc text-secondary d-block text-center">(size vừa,nâu đậm) </span>
-                                    <span class="price d-block text-center">8.999.999 VNĐ</span>
-                                    
-                                </span>
-                              </div>
-                            </div>
-                        </div>
                       <div class="">
                         <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-center">
@@ -368,6 +127,30 @@
             
         </section>
         <!-- END: list-product  -->
+
+        <!-- Modal product details  -->
+        <!-- Modal -->
+        <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Product Details</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="product-content">
+                    
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+       
     </main>
 
     <!-- Begin: footer  -->
@@ -451,5 +234,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" 
         integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
     </script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="../js/index.js"></script>
+    <script src="../js/index2.js"></script>
+     <!-- slick -->
+     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,15 @@
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\bin\Debug\net7.0\Lesson01_Lab01.exe
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\bin\Debug\net7.0\Lesson01_Lab01.deps.json
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\bin\Debug\net7.0\Lesson01_Lab01.runtimeconfig.json
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\bin\Debug\net7.0\Lesson01_Lab01.dll
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\bin\Debug\net7.0\Lesson01_Lab01.pdb
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\Lesson01_Lab01.csproj.AssemblyReference.cache
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\Lesson01_Lab01.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\Lesson01_Lab01.AssemblyInfoInputs.cache
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\Lesson01_Lab01.AssemblyInfo.cs
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\Lesson01_Lab01.csproj.CoreCompileInputs.cache
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\Lesson01_Lab01.dll
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\refint\Lesson01_Lab01.dll
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\Lesson01_Lab01.pdb
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\Lesson01_Lab01.genruntimeconfig.cache
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Demo\Lesson01_Lab01\obj\Debug\net7.0\ref\Lesson01_Lab01.dll

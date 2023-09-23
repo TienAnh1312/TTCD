@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03_3.1", "Lab03_3.1\Lab03_3.1.csproj", "{38AD50A2-D0C3-4C3A-843C-F9F8FE1B1199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03_3.2", "Lab03_3.2\Lab03_3.2.csproj", "{1EDB7B22-E339-4CA1-942E-2B50AFADEE6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03_3.3", "Lab03_3.3\Lab03_3.3.csproj", "{B9CFCD44-F815-467D-ACD6-1A5D95B59E48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38AD50A2-D0C3-4C3A-843C-F9F8FE1B1199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AD50A2-D0C3-4C3A-843C-F9F8FE1B1199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AD50A2-D0C3-4C3A-843C-F9F8FE1B1199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AD50A2-D0C3-4C3A-843C-F9F8FE1B1199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDB7B22-E339-4CA1-942E-2B50AFADEE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDB7B22-E339-4CA1-942E-2B50AFADEE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDB7B22-E339-4CA1-942E-2B50AFADEE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDB7B22-E339-4CA1-942E-2B50AFADEE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CFCD44-F815-467D-ACD6-1A5D95B59E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CFCD44-F815-467D-ACD6-1A5D95B59E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CFCD44-F815-467D-ACD6-1A5D95B59E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CFCD44-F815-467D-ACD6-1A5D95B59E48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7D5394E-5921-40FE-820A-CB39469D1D2C}
+	EndGlobalSection
+EndGlobal

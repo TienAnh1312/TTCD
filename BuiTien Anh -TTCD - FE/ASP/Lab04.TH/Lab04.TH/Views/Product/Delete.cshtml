@@ -1,0 +1,90 @@
+﻿@model Lab04.TH.Models.Product
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <div class="Name" style="padding: 2rem 3rem; text-align:center; font-size:2rem">
+        @Html.DisplayFor(model => model.Name)
+        <div class="" style="font-size:.8rem">
+            <i>
+                @Html.DisplayNameFor(model => model.CreateDate):
+                @Html.DisplayFor(model => model.CreateDate)
+            </i>
+        </div>
+    </div>
+    <div class="d-flex" style="margin: 0 8rem">
+        <div class="img" style="padding:0 2rem">
+            <img src="@Model.Image" alt="@Model.Name" />
+        </div>
+        <div class="content" style="padding:0 1rem">
+
+            <div class="d-flex" style="color:#777676">
+                <div>
+                    <i class="fa fa-plus">
+                    </i> @Html.DisplayNameFor(model => model.Price)
+                </div>
+                <div style="padding:0 7rem">
+                    @Html.DisplayFor(model => model.Price)
+                </div>
+            </div>
+
+            <div class="d-flex" style="margin: 0.7rem 0;color:#777676">
+                <div>
+                    <i class="fa-solid fa-truck-fast"></i> @Html.DisplayNameFor(model => model.SalePrice)
+                </div>
+                <div style="padding:0 4.9rem">
+                    @Html.DisplayFor(model => model.SalePrice)
+                </div>
+            </div>
+
+            <div class="d-flex" style="margin: 0.7rem 0; color:#777676">
+                <div>
+                    <i class="fa-regular fa-face-smile"></i> @Html.DisplayNameFor(model => model.Status)
+                </div>
+                <div style="padding:0 6.5rem">
+                    @*   @Html.DisplayFor(model => model.Status) *@
+                    @{
+                        if (Model.Status == true)
+                        {
+                            <text>Đang tiến hành</text>
+                        }
+                        else
+                        {
+                            <text>Đã hoàn thành</text>
+                        }
+                    }
+                </div>
+            </div>
+
+            <div class="d-flex" style="margin: 0.7rem 0;color:#777676">
+                <div>
+                    <i class="fa-solid fa-truck-fast"></i> @Html.DisplayNameFor(model => model.CategoryId)
+                </div>
+                <div style="padding:0 4.9rem">
+                    @Html.DisplayFor(model => model.CategoryId)
+                </div>
+            </div>
+
+            <div class="" style="margin: 0.7rem 0; font-family:Tahoma,sans-serif,Arial, Helvetica; color:#777676">
+                <div>
+                    <i class="fa-solid fa-audio-description"></i> @Html.DisplayNameFor(model => model.Description)
+                </div>
+                <div style="margin: 0.7rem 0; font-size:14px;color:#333333; width:80%; text-align:justify">
+                    <p>@Html.DisplayFor(model => model.Description)</p>
+                </div>
+            </div>
+            <form asp-action="Delete">
+                <input type="submit" value="Delete" class="btn btn-danger" /> 
+                <a asp-action="Index" class="btn btn-success">Back to List</a>
+            </form>
+        </div>
+    </div>
+</div>
+    
+    
+</div>

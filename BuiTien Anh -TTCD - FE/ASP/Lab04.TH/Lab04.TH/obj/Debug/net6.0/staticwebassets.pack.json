@@ -1,0 +1,289 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Lab04.TH.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Lab04.TH.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\Images\\products\\dai-lao-tu-tien-bat-dau-bang-tam-tri.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\dai-lao-tu-tien-bat-dau-bang-tam-tri.jpg"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\Images\\products\\kagurabachi.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\kagurabachi.jpg"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\Images\\products\\thanh-nu-duoc-dai-cong-tuoc-nhan-nuoi.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\thanh-nu-duoc-dai-cong-tuoc-nhan-nuoi.jpg"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\Images\\products\\toi-da-tai-sinh-thanh-be-cao-cua-than.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\toi-da-tai-sinh-thanh-be-cao-cua-than.jpg"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\Images\\products\\toi-thang-cap-mot-minh-ss2.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\toi-thang-cap-mot-minh-ss2.jpg"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\Images\\products\\zsm profile.png",
+      "PackagePath": "staticwebassets\\Images\\products\\zsm profile.png"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab04.TH\\Lab04.TH\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Lab04.TH.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Lab04.TH.props",
+      "PackagePath": "build\\Lab04.TH.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Lab04.TH.props",
+      "PackagePath": "buildMultiTargeting\\Lab04.TH.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Lab04.TH.props",
+      "PackagePath": "buildTransitive\\Lab04.TH.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

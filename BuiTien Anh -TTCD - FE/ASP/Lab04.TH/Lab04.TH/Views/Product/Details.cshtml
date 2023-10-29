@@ -1,0 +1,158 @@
+﻿@model Lab04.TH.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@* <h1>Details</h1>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SalePrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SalePrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CategoryId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CategoryId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateBy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateBy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+<div> 
+    <div class="Name" style="padding: 2rem 3rem; text-align:center; font-size:2rem">
+        @Html.DisplayFor(model => model.Name)
+        <div class="" style="font-size:.8rem">
+            <i>
+                @Html.DisplayNameFor(model => model.CreateDate):
+                @Html.DisplayFor(model => model.CreateDate)
+            </i>
+        </div>
+    </div>
+    <div class="d-flex" style="margin: 0 8rem">
+        <div class="img" style="padding:0 2rem">
+            <img src="@Model.Image" alt="@Model.Name" />
+        </div>
+        <div class="content" style="padding:0 1rem">
+
+            <div class="d-flex" style="color:#777676">
+                <div>
+                    <i class="fa fa-plus">
+                    </i> @Html.DisplayNameFor(model => model.Price)
+                </div>
+                <div style="padding:0 7rem">
+                    @Html.DisplayFor(model => model.Price)
+                </div>
+            </div>
+
+            <div class="d-flex" style="margin: 0.7rem 0;color:#777676">
+                <div>
+                    <i class="fa-solid fa-truck-fast"></i> @Html.DisplayNameFor(model => model.SalePrice)
+                </div>
+                <div style="padding:0 4.9rem">
+                    @Html.DisplayFor(model => model.SalePrice)
+                </div>
+            </div>
+
+            <div class="d-flex" style="margin: 0.7rem 0; color:#777676">
+                <div>
+                    <i class="fa-regular fa-face-smile"></i> @Html.DisplayNameFor(model => model.Status)
+                </div>
+                <div style="padding:0 6.5rem">
+                    @*   @Html.DisplayFor(model => model.Status) *@
+                    @{
+                        if (Model.Status == true)
+                        {
+                            <text>Đang tiến hành</text>
+                        }
+                        else
+                        {
+                            <text>Đã hoàn thành</text>
+                        }
+                    }
+                </div>
+            </div>
+
+            <div class="d-flex" style="margin: 0.7rem 0;color:#777676">
+                <div>
+                    <i class="fa-solid fa-truck-fast"></i> @Html.DisplayNameFor(model => model.CategoryId)
+                </div>
+                <div style="padding:0 4.9rem">
+                    @Html.DisplayFor(model => model.CategoryId)
+                </div>
+            </div>
+
+            <div class="" style="margin: 0.7rem 0; font-family:Tahoma,sans-serif,Arial, Helvetica; color:#777676">
+                <div>
+                    <i class="fa-solid fa-audio-description"></i> @Html.DisplayNameFor(model => model.Description)
+                </div>
+                <div style="margin: 0.7rem 0; font-size:14px;color:#333333; width:80%; text-align:justify">
+                    <p>@Html.DisplayFor(model => model.Description)</p>
+                </div>
+            </div>
+
+            <div>
+                @Html.ActionLink("Edit", "Edit", new {  id = Model.Id }, new{@class = "btn btn-primary"})
+                <a asp-action="Index" class="btn btn-success">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = lab06_new
+build_property.RootNamespace = lab06_new
+build_property.ProjectDir = E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\ASP\Lab06-foder\lab06_new\lab06_new\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\ASP\Lab06-foder\lab06_new\lab06_new
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Marks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Marks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Marks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Marks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Marks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/StdClasses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RkQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/StdClasses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RkQ2xhc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/StdClasses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RkQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/StdClasses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RkQ2xhc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/StdClasses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RkQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Subjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Subjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Subjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Subjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Subjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Bùi Tiến Anh/Học tập/TTCD/BuiTien Anh -TTCD - FE/ASP/Lab06-foder/lab06_new/lab06_new/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cl99fouj6p

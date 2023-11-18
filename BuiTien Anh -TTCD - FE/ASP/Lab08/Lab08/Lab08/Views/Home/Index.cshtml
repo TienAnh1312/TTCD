@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Lab08.Areas.Admin.Models.Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    @foreach (var product in Model)
+    {
+        <div col-md-4>
+            <div class="thumbnail">
+                <img src="@product.Image" alt="" style="width:5rem">
+                <div class="caption">
+                    <h3>@product.Name</h3>
+                    <p class="text-decoration-line-through text-muted">
+                        Giá: @product.price
+                    </p>
+
+                    <p>
+                        Giá: @product.SalePrice
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

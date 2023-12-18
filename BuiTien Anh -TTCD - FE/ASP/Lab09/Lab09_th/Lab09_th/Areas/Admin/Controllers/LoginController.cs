@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 using System.Text;
 
+
 namespace Lab09_th.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -22,13 +23,13 @@ namespace Lab09_th.Areas.Admin.Controllers
         [HttpPost] //Post -> khi submit form
         public IActionResult Index(Login model)
         {
-            if(ModelState.IsValid)
+            if(!ModelState.IsValid)
             {
                 return View(model); // trả về trạng thái lỗi
             }
-            // xử lý logic phần đăng nhập tại đây
+            //xử lý logic phần đăng nhập
             var pass = GetSHA26Hash(model.Password);
-            var dataLogin = _context.AdminUsers.Where(x => x.Email.Equals(model.Email) && x.Password.Equals(pass)).FirstOrDefault();
+            var dataLogin = _context.AdminUser.Where(x => x.Email.Equals(model.Email) && x.Password.Equals(pass)).FirstOrDefault();
             if (dataLogin != null)
             {
                 //Lưu  Session khi đăng nhập thành công 
@@ -36,7 +37,14 @@ namespace Lab09_th.Areas.Admin.Controllers
                 return RedirectToAction("Index", "Dashboard");
             }
             return View(model);//trả về trạng thái lỗi
+
+
+            //// xử lý logic phần đăng nhập      
+            //HttpContext.Session.SetString("AdminLogin", model.Email);
+            //return RedirectToAction("Index", "Dashboard");
         }
+
+
         [HttpGet] //Thoát đăng nhập, hủy Session
         public IActionResult Logout() {
             HttpContext.Session.Remove("AdminLogin"); // hủy Session với Key AdminLogin đã lưu trước đó

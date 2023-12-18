@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var connectionString =
-    builder.Configuration.GetConnectionString("AppConnectionString");
+builder.Configuration.GetConnectionString("AppConnectionString");
 builder.Services.AddDbContext<Lab09Context>(x => x.UseSqlServer(connectionString));
 
 // Cấu hình sử dụng Session

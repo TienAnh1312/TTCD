@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-size: 14px;
+}
+nav {
+    font-family: "Lato-Bold";
+    /* background-color: #ccc; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+}
+nav ul {
+    /* height: 100px; */
+    /* background-color: springgreen; */
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+nav a {
+    display: block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: red;
+}
+.container {
+    margin: 0 10%;
+}
+
+.d-flex {
+    display: flex;
+}

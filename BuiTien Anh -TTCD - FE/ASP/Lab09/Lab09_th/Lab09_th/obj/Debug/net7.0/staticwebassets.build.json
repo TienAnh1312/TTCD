@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HLDl0vZqPNZSFLMHvhlUKxhgPaS162lCiujFxAf9DY0=",
+  "Hash": "NQth5EfNXhqmluflLgoG+xJ8AHpjL3+2Kfzu4C8cWkU=",
   "Source": "Lab09_th",
   "BasePath": "_content/Lab09_th",
   "Mode": "Default",
@@ -40834,6 +40834,23 @@
       "OriginalItemSpec": "wwwroot\\Admin\\plugins\\uplot\\uPlot.min.css"
     },
     {
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\css\\font.css",
+      "SourceId": "Lab09_th",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
+      "BasePath": "_content/Lab09_th",
+      "RelativePath": "css/font.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font.css"
+    },
+    {
       "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\css\\site.css",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
@@ -40868,12 +40885,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\cau-thang\\019.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\cau-thang\\019.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/cau-thang/019.jpg",
+      "RelativePath": "Images/products/cau-thang/019.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40882,15 +40899,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\cau-thang\\019.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\cau-thang\\019.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\do-trang-tri\\020.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\do-trang-tri\\020.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/do-trang-tri/020.jpg",
+      "RelativePath": "Images/products/do-trang-tri/020.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40899,15 +40916,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\do-trang-tri\\020.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\do-trang-tri\\020.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-bep\\004.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-bep\\004.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-bep/004.jpg",
+      "RelativePath": "Images/products/phong-bep/004.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40916,15 +40933,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-bep\\004.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-bep\\004.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-bep\\009.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-bep\\009.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-bep/009.jpg",
+      "RelativePath": "Images/products/phong-bep/009.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40933,15 +40950,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-bep\\009.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-bep\\009.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\001.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\001.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/001.jpg",
+      "RelativePath": "Images/products/phong-khach/001.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40950,15 +40967,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\001.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\001.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\001a.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\001a.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/001a.jpg",
+      "RelativePath": "Images/products/phong-khach/001a.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40967,15 +40984,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\001a.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\001a.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\001b.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\001b.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/001b.jpg",
+      "RelativePath": "Images/products/phong-khach/001b.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40984,15 +41001,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\001b.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\001b.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\001c.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\001c.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/001c.jpg",
+      "RelativePath": "Images/products/phong-khach/001c.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41001,15 +41018,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\001c.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\001c.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\001d.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\001d.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/001d.jpg",
+      "RelativePath": "Images/products/phong-khach/001d.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41018,15 +41035,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\001d.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\001d.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\001e.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\001e.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/001e.jpg",
+      "RelativePath": "Images/products/phong-khach/001e.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41035,15 +41052,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\001e.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\001e.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\002.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\002.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/002.jpg",
+      "RelativePath": "Images/products/phong-khach/002.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41052,15 +41069,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\002.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\002.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\008.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\008.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/008.jpg",
+      "RelativePath": "Images/products/phong-khach/008.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41069,15 +41086,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\008.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\008.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\009.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\009.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/009.jpg",
+      "RelativePath": "Images/products/phong-khach/009.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41086,15 +41103,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\009.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\009.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\011.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\011.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/011.jpg",
+      "RelativePath": "Images/products/phong-khach/011.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41103,15 +41120,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\011.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\011.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\012.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\012.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/012.jpg",
+      "RelativePath": "Images/products/phong-khach/012.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41120,15 +41137,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\012.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\012.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\014.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\014.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/014.jpg",
+      "RelativePath": "Images/products/phong-khach/014.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41137,15 +41154,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\014.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\014.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-khach\\015.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-khach\\015.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-khach/015.jpg",
+      "RelativePath": "Images/products/phong-khach/015.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41154,15 +41171,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-khach\\015.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-khach\\015.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-ngu\\003.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-ngu\\003.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-ngu/003.jpg",
+      "RelativePath": "Images/products/phong-ngu/003.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41171,15 +41188,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-ngu\\003.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-ngu\\003.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-ngu\\004.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-ngu\\004.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-ngu/004.jpg",
+      "RelativePath": "Images/products/phong-ngu/004.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41188,15 +41205,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-ngu\\004.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-ngu\\004.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-ngu\\007.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-ngu\\007.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-ngu/007.jpg",
+      "RelativePath": "Images/products/phong-ngu/007.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41205,15 +41222,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-ngu\\007.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-ngu\\007.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-ngu\\013.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-ngu\\013.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-ngu/013.jpg",
+      "RelativePath": "Images/products/phong-ngu/013.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41222,15 +41239,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-ngu\\013.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-ngu\\013.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-tam\\005.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-tam\\005.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-tam/005.jpg",
+      "RelativePath": "Images/products/phong-tam/005.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41239,15 +41256,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-tam\\005.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-tam\\005.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-tam\\006.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-tam\\006.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-tam/006.jpg",
+      "RelativePath": "Images/products/phong-tam/006.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41256,15 +41273,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-tam\\006.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-tam\\006.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-tam\\007.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-tam\\007.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-tam/007.jpg",
+      "RelativePath": "Images/products/phong-tam/007.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41273,15 +41290,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-tam\\007.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-tam\\007.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\phong-tam\\008.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\phong-tam\\008.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/phong-tam/008.jpg",
+      "RelativePath": "Images/products/phong-tam/008.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41290,15 +41307,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\phong-tam\\008.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\phong-tam\\008.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\tre-em\\016.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\tre-em\\016.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/tre-em/016.jpg",
+      "RelativePath": "Images/products/tre-em/016.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41307,15 +41324,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\tre-em\\016.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\tre-em\\016.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\tre-em\\017.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\tre-em\\017.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/tre-em/017.jpg",
+      "RelativePath": "Images/products/tre-em/017.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41324,15 +41341,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\tre-em\\017.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\tre-em\\017.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\tre-em\\018.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\tre-em\\018.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/tre-em/018.jpg",
+      "RelativePath": "Images/products/tre-em/018.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41341,15 +41358,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\tre-em\\018.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\tre-em\\018.jpg"
     },
     {
-      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\Images\\products\\van-phong\\018.jpg",
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\Images\\products\\van-phong\\018.jpg",
       "SourceId": "Lab09_th",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\",
       "BasePath": "_content/Lab09_th",
-      "RelativePath": "Images/Images/products/van-phong/018.jpg",
+      "RelativePath": "Images/products/van-phong/018.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41358,7 +41375,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Images\\products\\van-phong\\018.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\products\\van-phong\\018.jpg"
     },
     {
       "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_th\\Lab09_th\\wwwroot\\js\\site.js",

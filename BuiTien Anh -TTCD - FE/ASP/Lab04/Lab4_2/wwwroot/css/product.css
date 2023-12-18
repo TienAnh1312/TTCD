@@ -1,0 +1,26 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+/* product */
+.product{
+    display:flex;
+    width:25%;
+}
+.product-img img {
+    width: 95%;
+}
+.product-item {
+    margin: 1rem 4px;
+    text-align: center;
+    padding:1rem 5rem;
+}
+.mainne{
+    background-color:#fff;
+    flex-wrap:wrap;
+}

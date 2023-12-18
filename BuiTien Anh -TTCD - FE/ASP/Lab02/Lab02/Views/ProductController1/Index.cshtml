@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Index";
+    var products = ViewBag.products;
+}
+<div class="d-flex" id="navv">
+    <div style="width:20%">
+        <ul style="margin:.3rem 1rem;">
+            <h2>Danh mục</h2>
+            <li>Quần áo</li>
+            <li>Túi xách</li>
+            <li>Đồng hồ</li>
+            <li>Ti vi</li>
+            <li>Tủ lạnh</li>
+            <li>Máy bơm</li>
+            <li>Quạt điện</li>
+            <li>Lò sưởi</li>
+        </ul>
+    </div>
+    <div class="row" style="width:80%">
+        <h2>Danh sách sản phẩm</h2>
+        @foreach (var item in products)
+        {
+            <div class="col-md-4" style=" border: 1px solid #9c9898;width:30%;margin: .5rem .5rem">
+                <div class="thumbnail" style="text-align:center">
+                    <img src="@item.Avatar" alt="" style="width:70%">
+                    <div class="caption" style="text-align:center">
+                        <h3>@item.Name</h3>
+                        <h4 style="font-size:1rem">Giá: @item.Price</h4>
+                        <p>
+                            <a asp-action="profileProduct" asp-route-id="@item.Id" asp-controller="ProductController1" class="btn btn-success btn-block">Chi tiết</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -73,5 +73,26 @@
             LiElementClasses = new string[] { "page-item" },
             PageClasses = new string[] { "page-links" }
         })
+   @*      <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                @if (Model.PageCount > 1)
+                {
+                    <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
+                        <a class="page-link" href="@Url.Action("Index", new { pageList = 1 })">Previous</a>
+                    </li>
+
+                    @for (int i = 1; i <= Model.PageCount; i++)
+                    {
+                        <li class="page-item @(Model.PageNumber == i ? "active" : "")">
+                            <a class="page-link" href="@Url.Action("Index", new { pageList = i })">@i</a>
+                        </li>
+                    }
+
+                    <li class="page-item @(Model.PageNumber == Model.PageCount ? "disabled" : "")">
+                        <a class="page-link" href="@Url.Action("Index", new { pageList = Model.PageCount })">Next</a>
+                    </li>
+                }
+            </ul>
+        </nav> *@
 </div>
 </div>

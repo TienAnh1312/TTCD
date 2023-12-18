@@ -1,0 +1,65 @@
+﻿@model Lab4_2.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="Name" style="padding: 2rem 3rem; text-align:center; font-size:2rem">
+    @Html.DisplayFor(model => model.Name)
+    <div class="" style="font-size:.8rem">
+        <i>
+            @Html.DisplayNameFor(model => model.CreatedDate):
+            @Html.DisplayFor(model => model.CreatedDate)
+        </i>
+    </div>
+</div>
+<div class="d-flex">      
+        <div class="img" style="padding:0 2rem">
+            <img src="@Model.Image" alt="@Model.Name" />
+        </div>
+       <div class="content" style="padding:0 1rem">
+
+            <div class="d-flex">
+                <div>
+                <i class="fa fa-plus">
+                </i> @Html.DisplayNameFor(model => model.Price)
+                </div>
+                <div style="padding:0 7rem">
+                @Html.DisplayFor(model => model.Price)
+                </div>
+            </div>
+
+            <div class="d-flex" style="margin: 0.7rem 0">
+                <div>
+                <i class="fa-solid fa-truck-fast"></i> @Html.DisplayNameFor(model => model.SalePrice)
+                </div>
+                <div style="padding:0 4.4rem">
+                    @Html.DisplayFor(model => model.SalePrice)
+                </div>
+            </div>
+
+            <div class="d-flex" style="margin: 0.7rem 0">
+                <div>
+                <i class="fa-regular fa-face-smile"></i> @Html.DisplayNameFor(model => model.Status)
+                </div>
+                <div style="padding:0 4rem">
+                    @Html.DisplayFor(model => model.Status)
+                </div>
+            </div>
+
+            <div class="" style="margin: 0.7rem 0">
+                <div>
+                <i class="fa-solid fa-audio-description"></i> @Html.DisplayNameFor(model => model.Description)
+                </div>
+            <div style="margin: 0.7rem 0">
+                    @Html.DisplayFor(model => model.Description)
+                </div>
+            </div>
+
+        <div>
+            @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }, new{@class = "btn btn-primary"}) 
+            <a asp-action="Index" class="btn btn-success">Back to List</a>
+        </div>
+       </div>
+</div>
+

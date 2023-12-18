@@ -17,7 +17,7 @@ public partial class Lab09Context : DbContext
 
     public virtual DbSet<AdminLog> AdminLogs { get; set; }
 
-    public virtual DbSet<AdminUser> AdminUsers { get; set; }
+    public virtual DbSet<AdminUser> AdminUser { get; set; }
 
     public virtual DbSet<Banner> Banners { get; set; }
 
@@ -46,6 +46,7 @@ public partial class Lab09Context : DbContext
     public virtual DbSet<ProductMaterial> ProductMaterials { get; set; }
 
     public virtual DbSet<Slide> Slides { get; set; }
+    
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.

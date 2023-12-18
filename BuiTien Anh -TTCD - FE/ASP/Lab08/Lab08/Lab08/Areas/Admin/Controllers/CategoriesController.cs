@@ -26,16 +26,16 @@ namespace Lab08.Areas.Admin.Controllers
         public async Task<IActionResult> Index(string name, int page=1)
         {
             //số bản ghi trên 1 trang
-            int limit = 5;
+            int limit = 3;
 
             var category = await _context.Categories.OrderBy(c => c.Id).ToPagedListAsync(page, limit);
             //nếu có tham số name trên url
-            if (!string.IsNullOrEmpty(name))
+            if (!String.IsNullOrEmpty(name))
             {
                 category = await _context.Categories.Where(c => c.Name.Contains(name)).OrderBy(c => c.Id).ToPagedListAsync(page, limit);
             }
             ViewBag.keyword = name;
-              return View(category);
+            return View(category);
         }
 
         // GET: Admin/Categories/Details/5

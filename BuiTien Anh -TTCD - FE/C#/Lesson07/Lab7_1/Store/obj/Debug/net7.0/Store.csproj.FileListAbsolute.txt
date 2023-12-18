@@ -1,0 +1,15 @@
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\bin\Debug\net7.0\Store.exe
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\bin\Debug\net7.0\Store.deps.json
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\bin\Debug\net7.0\Store.runtimeconfig.json
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\bin\Debug\net7.0\Store.dll
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\bin\Debug\net7.0\Store.pdb
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\Store.csproj.AssemblyReference.cache
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\Store.AssemblyInfoInputs.cache
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\Store.AssemblyInfo.cs
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\Store.csproj.CoreCompileInputs.cache
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\Store.dll
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\refint\Store.dll
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\Store.pdb
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\Store.genruntimeconfig.cache
+E:\Bùi Tiến Anh\Học tập\TTCD\BuiTien Anh -TTCD - FE\C#\Lesson07\Lab7_1\Store\obj\Debug\net7.0\ref\Store.dll

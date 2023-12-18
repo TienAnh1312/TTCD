@@ -62,3 +62,68 @@ a{
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
 }
+.banner img{
+    float: left;
+    margin-left: 130px;
+}
+.text p{
+    color: #232020;
+    position: absolute;
+    top: 92rem;
+    padding-left: 300px;
+    
+}
+.text h3{
+    color: #232020;
+    position: absolute;
+    top: 90rem;
+    padding-left: 300px;
+}
+.text a{
+    color: #232020;
+    position: absolute;
+    top: 98rem;
+    padding-left: 300px;
+   
+}
+.phone{
+     font-size: 20px;
+     margin-left: 150px; 
+     width: 30%;
+     border: 2px solid greenyellow;
+     position: absolute;
+     top: 130rem;
+     padding-left: 300px;
+}
+.mySlides {
+    /* display:none; */
+    width:100%
+} 
+.button-left{
+    left:1%; 
+    font-size:20px
+} 
+.button-right{
+    right:1%; 
+    font-size:20px 
+} 
+.image-button{
+    border:none;
+    display:inline-block;
+    padding:10px;
+    height:50px;
+    vertical-align:middle;
+    overflow:hidden; 
+    color:#fff;
+    background:#000;
+    position:absolute;
+    top:calc(50% - 25px); 
+    opacity:0.5;
+} 
+.image-button:hover{
+    color:#000;
+    background-color:#ccc;
+} 
+.display-container{
+    position:relative}
+

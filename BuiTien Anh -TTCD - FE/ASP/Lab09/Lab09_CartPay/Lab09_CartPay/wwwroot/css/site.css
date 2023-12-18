@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    line-height: 1;
+}
+
+:root {
+    --color: #2c2e53;
+    --color-hover: #131317;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    html, body {
+        background: #f3f3f3;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        position: relative;
+        min-height: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--color);
+        font-weight: bold;
+    }
+
+        a:hover {
+            color: var(--color);
+        }
+
+    p {
+        margin: 0.25rem 0;
+    }
+
+    .product-card {
+        margin: 1rem 0;
+        padding: 5px;
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        border: 1px solid #e6e6e6;
+    }
+
+    .product-cart-box-img {
+        margin: .5rem;
+        overflow: hidden;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .product-card:hover, product-card:hover img {
+        box-shadow: 0 1px 7px 0 rgb(0 0 0 / 35%);
+        cursor: pointer;
+    }
+
+        .product-card:hover img {
+            transform: scale(1.5);
+            transition: 3s all;
+        }
+
+    .product-card-content {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .product-card-img {
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .product-card-content .old-price {
+        font-size: 0.85rem;
+        color: #888888;
+        text-decoration: line-through;
+    }
+
+    .product-card-content .new-price {
+        font-size: 0.85rem;
+        color: #222222;
+    }
+
+    .bg-white {
+        background: #fff !important;
+    }
+
+    .product-card a i {
+        color: #337609;
+        font-style: normal;
+    }
+
+    .product-card a:hover i {
+        color: #337609;
+        font-weight: bold;
+    }
+
+    footer {
+        position: relative !important;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}

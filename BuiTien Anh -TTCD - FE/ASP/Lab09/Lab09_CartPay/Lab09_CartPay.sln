@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab09_CartPay", "Lab09_CartPay\Lab09_CartPay.csproj", "{D4913880-FAAF-4600-9AF6-94B3D6751893}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4913880-FAAF-4600-9AF6-94B3D6751893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4913880-FAAF-4600-9AF6-94B3D6751893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4913880-FAAF-4600-9AF6-94B3D6751893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4913880-FAAF-4600-9AF6-94B3D6751893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E8CBE01-D68A-46F1-85B8-73E419A1C707}
+	EndGlobalSection
+EndGlobal

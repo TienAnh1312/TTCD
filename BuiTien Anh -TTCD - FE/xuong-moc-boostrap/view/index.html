@@ -130,21 +130,57 @@
 
         <!-- Modal product details  -->
         <!-- Modal -->
-        <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal"  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Product Details</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Product details</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                < class="modal-body">
+                    <!-- RENDER-LIST-PRODUCT -->
+                    <div class="title text-blue h3">BÀN UỐNG NƯỚC</div>
+                    <div class="product-infor d-flex ">
+                        <div class="product-slide px-5" style="width: 60%;">
+                            <div class="slider-for">
+                                                              
+                            </div>
+                            <div class="slider-nav">
+                                
+                            </div>
+                        </div>
+                        <div class="product-desc px-5 " style="width: 40%;">     
+    
+                    </div>
 
                 </div>
-                <div class="product-content">
-                    
-                </div>
+              
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                  </div>
+                  
+                  <div id="London" class="tabcontent">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                  </div>
+                  
+                  <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p> 
+                  </div>
+                  
+                  <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                  </div>
+                  
+                
+
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                
                 </div>
             </div>
             </div>
@@ -239,8 +275,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <script src="../js/index.js"></script>
-    <script src="../js/index2.js"></script>
      <!-- slick -->
      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-</body>
+    <script>
+        $(document).ready(function(){
+    //  $('.slide-product').slick();
+    const myModalEl = document.getElementById('exampleModal')
+    myModalEl.addEventListener('show.bs.modal', event => {
+        $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: true,
+        focusOnSelect: true
+    });
+    })
+            function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+}
+        })
+    </script>
+    </body>
 </html>

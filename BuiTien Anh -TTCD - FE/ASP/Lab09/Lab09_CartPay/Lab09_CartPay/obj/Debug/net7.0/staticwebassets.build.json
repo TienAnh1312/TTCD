@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h+tIUsK4fBB5ziDb4PHRHM/iszt91QtwLbH9wKktL/s=",
+  "Hash": "domfFLuDNqI3aA2JSQTZBV5znc0Nlfeyw23j4WHkUFQ=",
   "Source": "Lab09_CartPay",
   "BasePath": "_content/Lab09_CartPay",
   "Mode": "Default",
@@ -2463,6 +2463,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\dist\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\Admin\\dist\\css\\Login\\Login.css",
+      "SourceId": "Lab09_CartPay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\",
+      "BasePath": "_content/Lab09_CartPay",
+      "RelativePath": "Admin/dist/css/Login/Login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\dist\\css\\Login\\Login.css"
     },
     {
       "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\Admin\\dist\\img\\AdminLTELogo.png",
@@ -40832,6 +40849,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\plugins\\uplot\\uPlot.min.css"
+    },
+    {
+      "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\css\\LoginCus\\LoginCus.css",
+      "SourceId": "Lab09_CartPay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\",
+      "BasePath": "_content/Lab09_CartPay",
+      "RelativePath": "css/LoginCus/LoginCus.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginCus\\LoginCus.css"
     },
     {
       "Identity": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\css\\site.css",

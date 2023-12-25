@@ -461,6 +461,10 @@
       "PackagePath": "staticwebassets\\Admin\\build\\scss\\plugins\\_toastr.scss"
     },
     {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\Admin\\dist\\css\\Login\\Login.css",
+      "PackagePath": "staticwebassets\\Admin\\dist\\css\\Login\\Login.css"
+    },
+    {
       "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\Admin\\dist\\css\\adminlte.css",
       "PackagePath": "staticwebassets\\Admin\\dist\\css\\adminlte.css"
     },
@@ -9715,6 +9719,10 @@
     {
       "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\Images\\products\\van-phong\\018.jpg",
       "PackagePath": "staticwebassets\\Images\\products\\van-phong\\018.jpg"
+    },
+    {
+      "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\css\\LoginCus\\LoginCus.css",
+      "PackagePath": "staticwebassets\\css\\LoginCus\\LoginCus.css"
     },
     {
       "Id": "E:\\Bùi Tiến Anh\\Học tập\\TTCD\\BuiTien Anh -TTCD - FE\\ASP\\Lab09\\Lab09_CartPay\\Lab09_CartPay\\wwwroot\\css\\site.css",

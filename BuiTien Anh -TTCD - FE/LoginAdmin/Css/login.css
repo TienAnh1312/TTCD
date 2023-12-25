@@ -1,0 +1,200 @@
+body{
+    background: url(../images/tải\ xuống\ \(1\).jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    overflow: hidden;
+}
+.container{
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 0px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 500px;
+}
+.form{
+    position: absolute;
+    top: 0;
+    background-color: whitesmoke;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+.login{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+.register{
+    left: 0;
+    width: 50%;
+    z-index: 1;
+    opacity: 0;
+}
+form .top{
+    margin: 20px 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+form .input{
+    width: 100%;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    border-bottom: 2px solid var(--gray);
+    margin: 12px 0;
+    padding: 0 12px;
+    font-size: 17px;
+}
+.input i{
+    position: absolute;
+    right: 8px;
+    top: 12px;
+}
+.input label{
+    position: absolute;
+    left: 0;
+    top: 12px;
+    font-size: 14px;
+    pointer-events: none;
+    color: var(--gray);
+    padding: 0 0 0 12px;
+    transition: 0.3s ease;
+}
+.input input:focus ~ label,
+.input input:valid ~ label{
+    font-size: 10px;
+    top: -10px;
+}
+.input span{
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 0%;
+    border-bottom: 3px solid #0091ca;
+    transition: 0.5s ease-in-out;
+}
+.input input:focus ~ span{
+    width: 100%;
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 5px;
+    margin: 10px 0 20px;
+    font-size: 14px;
+}
+button{
+    margin: 15px;
+    padding: 10px 80px;
+    border: none;
+    outline: none;
+    background-color: #35cafb;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+}
+button:hover {
+    letter-spacing: 3px;
+}
+button:active{
+    transform: scale(0.9);
+}
+button.btn{
+    background-color: rgb(255, 255, 255, 0.2);
+    position: relative;
+}
+#register i{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+#login i{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+button.btn:hover i{
+    font-size: 18px;
+}
+.container.active .login{
+    transform: translateX(100%);
+}
+.container.active .register{
+    transform: translateX(100%);
+    z-index: 3;
+    opacity: 1;
+}
+.content-container{
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    z-index: 10;
+    transition: transform 0.6s ease-in-out;
+}
+.container.active .content-container{
+    transform: translate(-100%);
+}
+.content{
+    background: url(../images/tải\ xuống.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    width: 200%;
+    left: -100%;
+    transform: translateX(0);
+    color: var(--white);
+    transition: transform 0.6s ease-in-out;
+}
+.container.active .content{
+    transform: translateX(50%);
+}
+.content-text{
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+    flex-direction: column;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+.container.active .left{
+    transform: translateX(0);
+}
+.right{
+    right: 0;
+    transform: translateX(0);
+}

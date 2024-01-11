@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+@font-face {
+    font-family: "SVN-Athena_0";
+    src: url(/fonts/SVN-Athena_0.ttf);
+}
+/* <header */
+/* Thanh menu */
+#navbar-Menu{
+    display: flex;
+}
+#navbar-Menu{
+    width: 100%;
+}
+#navbar-Menu a{
+    color: #000;
+    font-size: 80%;
+    font-weight: bold;
+    font-family: "SVN-Athena_0";
+    margin-right: 6%;
+}
+#navbar-Menu a:hover{
+    color: #aabc44;
+}
+/* </header> */
+/*Banner*/
+.banner-img img{
+  width: 100%;
+}
+.banner .container-fluid{
+  position: relative;
+}
+.banner-item{
+  position: relative;
+}
+.introduction{
+  position: absolute;
+  left: 0; right: 0; top: 46%;
+  width: 59%;
+  margin: auto;
+}
+.introduction h1{
+  font-family:'font-ultra' ;
+  font-size: 2.3rem;
+}
+.introduction p{
+  width: 50%;
+  text-align: justify;
+  margin: 1rem 0;
+}
+.banner-box .slick-prev{
+  left: -1px;
+  position: absolute;
+}
+.banner-box .slick-next{
+  right: -1px;
+  position: absolute;
+}
+
+button{
+  border: none;
+  background-color: #69922b;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-family:'font-ultra' ;
+}
+
+/*product*/
+.title h1{
+  text-align: center;
+  margin-top: 5rem;
+  font-family:'font-ultra' ;
+  color: #2c2e53;
+  font-size: 1.4rem;
+}
+.product .container{
+  width: calc(13*100%/18);
+  margin: auto;
+}
+.product .product-hot{
+  width: 100%;
+  justify-content: center;
+}
+.container .product-hot h2{
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 1.5rem;
+}
+.product-item p{
+ font-size: 10px;
+ text-align: center;
+ font-family:'font-ultra' ;
+}
+.btn-product {
+  border: 0px;
+  background-color: #f3f3f3;
+}
+.product-item{
+  padding-left: 1rem;
+  width: 75% !important;
+}
+.product-item img{
+  border-radius: 100%;
+}
+.slick-slide img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+.product-item h3{
+  text-align: center;
+}
+.slick-prev::before, .slick-next::before {
+  font-size: 1rem;
+  line-height: 1;
+  color: #69922b !important;  
+  opacity: 50% !important;
+}
+.slide-product .slick-prev {
+ left: -22px;
+}
+.product-item h3{
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+/* introduce  */
+.introduce-img img{
+  width: 100%;
+}
+.introduce .container-fluid{
+  position: relative;
+}
+.container-fluid .introduce-content{
+  position: absolute;
+  left: 21%; top: 54%;
+  width: calc(13*100%/18);
+  margin: auto;
+}
+.container-fluid .introduce-content p{
+  width: 40%;
+  text-align: justify;
+  margin: 1rem 0;
+}
+.intro-content p{
+  position: absolute;
+  left: 87%;
+  top: 33%;
+  margin: auto;
+}
+
+/* Nghệ nhân trà đạo */
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "Cardo", serif;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  place-items: center;
+}
+.page-content {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+@media (min-width: 600px) {
+  .page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .page-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 600px) {
+  .card {
+    height: 350px;
+  }
+}
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-size: cover;
+  background-position: 0 0;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+.card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.009) 11.7%,
+    rgba(0, 0, 0, 0.034) 22.1%,
+    rgba(0, 0, 0, 0.072) 31.2%,
+    rgba(0, 0, 0, 0.123) 39.4%,
+    rgba(0, 0, 0, 0.182) 46.6%,
+    rgba(0, 0, 0, 0.249) 53.1%,
+    rgba(0, 0, 0, 0.32) 58.9%,
+    rgba(0, 0, 0, 0.394) 64.3%,
+    rgba(0, 0, 0, 0.468) 69.3%,
+    rgba(0, 0, 0, 0.54) 74.1%,
+    rgba(0, 0, 0, 0.607) 78.8%,
+    rgba(0, 0, 0, 0.668) 83.6%,
+    rgba(0, 0, 0, 0.721) 88.7%,
+    rgba(0, 0, 0, 0.762) 94.1%,
+    rgba(0, 0, 0, 0.79) 100%
+  );
+  transform: translateY(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+.card:nth-child(1):before {
+  background-image: url(https://cdn.pastaxi-manager.onepas.vn/content/uploads/articles/An-%C4%91%E1%BA%B7c%20s%E1%BA%A3n%20v%C3%B9ng%20mi%E1%BB%81n/An-23-che%20thai%20nguyen/3-loai-dac-san-che-thai-nguyen-vung-tan-cuong-noi-tieng-ngon-gia-ban-4.jpg);
+}
+.card:nth-child(2):before {
+  background-image: url(https://th.bing.com/th/id/OIP.dgF_AmgQifuH2Yy1etrQjwHaHa?rs=1&pid=ImgDetMain);
+}
+.card:nth-child(3):before {
+  background-image: url(https://t.kfs.io/upload_images/147069/DSC00006_original.jpg);
+}
+.card:nth-child(4):before {
+  background-image: url(https://th.bing.com/th/id/OIP.Ta6Ugtd8JU4abRM_N9uEbgHaJ4?pid=ImgDet&w=200&h=266&c=7&dpr=1.3);
+}
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  transition: transform var(--d) var(--e);
+  z-index: 1;
+}
+.content{
+  color: white;
+}
+.content .copy{
+  color: white;
+  font-size: 14px;
+}
+.content > * + * {
+  margin-top: 1rem;
+}
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.copy {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+@media (hover: hover) and (min-width: 600px) {
+  .card:after {
+    transform: translateY(0);
+  }
+  .content {
+    transform: translateY(calc(100% -12.5rem));
+  }
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+  .card:hover,
+  .card:focus-within {
+    align-items: center;
+  }
+  .card:hover:before,
+  .card:focus-within:before {
+    transform: translateY(-4%);
+  }
+  .card:hover:after,
+  .card:focus-within:after {
+    transform: translateY(-50%);
+  }
+  .card:hover .content,
+  .card:focus-within .content {
+    transform: translateY(0);
+  }
+  .card:hover .content > *:not(.title),
+  .card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+  .card:focus-within:before,
+  .card:focus-within:after,
+  .card:focus-within .content,
+  .card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+/* Mua ngay */
+.Buy_now{
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  width: 100%;
+}
+#register{
+  width: 50%;
+  margin-right: 1%;
+  border: 2px solid #aabc44; 
+}
+.sub-button{
+  width: 7rem;
+  background-color: #aabc44;
+  border: 2px solid #aabc44;
+}
+.sub-button:hover{
+  color: white;
+}
+
+/* footer */
+footer{
+  margin-top: auto;
+  background-color: #aabc44;
+}
+footer .container{
+  display: flex;
+  width: calc(12*100%/18);
+  margin: auto;
+  justify-content: space-between;
+  padding: 1rem;
+  line-height: 1.7rem;
+  padding: 3rem 0;
+}
+footer li, footer a, footer .title, footer i{
+  /* color: #fff; */
+}
+footer li, footer a {
+  font-family:'font-thin' ;
+  color: #000;
+}
+footer .title{
+  margin-bottom: 1rem;
+  position: relative;
+}
+footer .title::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: #fff; */
+  height: 0.2rem;
+  width: 5rem;
+}
+footer .contact ul li:first-child{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+footer .contact ul li:last-child div{
+ width: 10rem;
+}
+footer .contact ul li div{
+  width: 3rem;
+  margin-right: 1rem;
+}
+footer .contact ul li div img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+

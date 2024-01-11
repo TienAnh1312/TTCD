@@ -1,0 +1,55 @@
+<div class="row cart">
+    <div class="col-md-12">
+        <h2>Giỏ hàng</h2>
+        <div class="box-cart">
+            <div box-cart-item-box>
+                @foreach(var item in Model)
+                {
+                    var money = item.Price * item.Quantity;
+                    <div class="box-cart-border-bottom d-flex justify-content-between align-items-center">
+                        <div class="box-cart-item d-flex justify-content-start align-items-center">
+                            <img src="@item.Image" alt="@item.Name" class="box-cart-item-img">
+                            <div class="d-flex flex-colum">
+                                <h5>@item.Name</h5>
+                                <div class="box-cart-item-btn">
+                                    <button class="btn qty_btn"><i class="fa fa-minus"></i></button>
+                                    <input type="number" class="qty_input" value="@item.Quantity" />
+                                    <button class="btn qty_btn"><i class="fa fa-plus"></i></button>
+                                </div>
+                                <p data-price="@item.Price">Giá: <span> @string.Format("{0:#,##0}", @item.Price)</span> VNĐ</p>
+                                <p data-money="@money" class="total-money">Thành tiền: <span id="money">@string.Format("{0:#,##0}", @item.Total)</span> VNĐ</p>
+                            </div>
+                        </div>
+                        <div class="btn-action">
+                            <a href="/cart/remove/?id=@item.Id" class="btn remove"><i class="fa-solid fa-xmark"></i>Xóa</a>
+                            <a href="/cart/?id=@item.Id" data-id="@item.Id" data-qty="@item.Quantity" class="btn update">Cập nhập</a>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="box-cart-bill">
+                <h3>Tóm tắt đơn hàng</h3>
+                <p>Tổng thành tiền<span id="totalMoney"> @string.Format("{0:#,##0}", ViewBag.total) VNĐ</span></p>
+                <p>Phí vận chuyển: <span class="ship-money">Free Ship</span><br>
+                    <small>( Miễn phí vận chuyển với đơn hàng trên 10 triệu )</small>    
+                </p>
+                <p>Thông tin vận chuyển: Sản phẩm sẽ được giao trong vòng 2-7 ngày.
+                    <br>
+                    Chi tiết liên hệ:
+                    <a href="tel:0828345288">0828 345 288</a>
+                </p>           
+                <div class="cart-box cart-layout">
+                    <div>
+                        Tổng tiền: <span id="totalMoneyPay">
+                            @string.Format("{0:#,##0}", ViewBag.total) VNĐ
+                        </span>
+                    </div>
+                    <div class="group-btn">
+                        <a href="/cart/orders" class="btn">Đặt hàng ngay</a>
+                        <a href="/product" class="btn">Tiếp tục mua hàng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

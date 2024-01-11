@@ -1,0 +1,255 @@
+
+@media (min-width: 350px) { 
+   /*banner*/
+   .banner .introduction h2{
+    font-size: 12px;
+   }
+   .banner .introduction p{
+    font-size: 10px;
+    width: 98%;
+    margin: 0 0;
+   }
+   /*introduce*/
+   .container-fluid .introduce-content p {
+    width: 100%;
+    text-align: justify;
+    margin: 1rem 0;
+    font-size: 10px;
+    }
+    .container-fluid .introduce-content { 
+    left: 13px;
+    top: 50%;
+    width: 85%;
+    margin: 0 10px;
+    }
+    .intro-content p {
+        left: 84.8%;
+        top: 33%;
+        font-size: 6px;
+    }
+    
+    .artist_content span {
+        font-size: 6px;
+        color: #bd945f;
+    }
+    .artist_content p {
+        margin: 0 7px;
+        font-size: 6px;
+        width: 85%;
+    }
+    .artist_all {
+        top: -5%;
+        left: 5%;
+    }
+    .artist_item {
+        width: 19%;
+    }
+    /*Buy*/
+    .Buy_now h4 {
+        font-size: 15px;
+    }
+    .Buy_now {
+        text-align: center;
+        position: absolute;
+        top: 92%;
+        width: 90%;
+    }
+    /*footer*/
+    footer .container {
+        display: block;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) { 
+    /*banner*/
+ .banner .introduction h2{
+    font-size: 14px;
+   }
+   .banner .introduction p{
+    font-size: 13px;
+    width: 90%;
+    margin: 0 0;
+   }
+   /*introduce*/
+   .container-fluid .introduce-content p {
+    width: 80%;
+    text-align: justify;
+    margin: 1rem 0;
+    font-size: 10px
+    }
+    .container-fluid .introduce-content {
+        left: 20%;
+        top: 53%;
+        width: 46%;
+        margin: 0 10px;
+    }
+    .intro-content p {
+        left: 85.8%;
+        top: 33%;
+        font-size: 8px;
+    } 
+    .artist_content span {
+        font-size: 8px;
+        color: #bd945f;
+    }
+    .artist_content p {
+        margin: 0 7px;
+        font-size: 8px;
+        width: 80%;
+    }
+    .artist_all {
+        top: -5%;
+        left: 5%;
+    }
+    .artist_item {
+        width: 19%;
+    }
+    /*Buy*/
+    .Buy_now h4 {
+        font-size: 15px;
+    }
+    .Buy_now {
+        text-align: center;
+        position: absolute;
+        top: 80%;
+        width: 90%;
+    }
+    /*footer*/
+    footer .container {
+        display: block;
+    }
+   
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /*banner*/
+    .banner .introduction h2{
+        font-size: 22px;
+       }
+       .banner .introduction p{
+        font-size: 20px;
+        width: 90%;
+        margin: 0 0;
+       }
+    /*introduce*/
+    .container-fluid .introduce-content p {
+        width: 80%;
+        text-align: justify;
+        margin: 1rem 0;
+        font-size: 13px
+        }
+    .container-fluid .introduce-content {
+        left: 20%;
+        top: 53%;
+        width: 46%;
+        margin: 0 10px;
+    }
+    .intro-content p {
+        left: 86.5%;
+        top: 33%;
+        font-size: 9px;
+    } 
+    .artist_content span {
+        font-size: 8px;
+        color: #bd945f;
+    }
+    .artist_content p {
+        margin: 0 7px;
+        font-size: 8px;
+        width: 80%;
+    }
+    .artist_all {
+        top: -5%;
+        left: 5%;
+    }
+    .artist_item {
+        width: 19%;
+    }
+    /*Buy*/
+    .Buy_now h4 {
+        font-size: 15px;
+    }
+    .Buy_now {
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        width: 90%;
+    }
+    /*footer*/
+    footer .container {
+        display: block;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /*banner*/
+    .banner .introduction h2{
+        font-size: 12px;
+       }
+       .banner .introduction p{
+        font-size: 9px;
+        width: 90%;
+        margin: 0 0;
+       }
+    /*introduce*/
+   .container-fluid .introduce-content p {
+    width: 80%;
+    text-align: justify;
+    margin: 1rem 0;
+    }
+    .intro-content p {
+        left: 86.5%;
+        top: 33%;
+        font-size: 10px;
+    }
+    /*ar*/
+    .artist_content p {
+        margin: 0 10px;
+        font-size: 11px;
+    }
+    .artist_content span {
+        font-size: 11px;
+    }
+    footer .container {
+        display: flex;
+    }
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+     /*banner*/
+   .banner .introduction h2{
+    font-size: 12px;
+   }
+   .banner .introduction p{
+    font-size: 9px;
+    width: 90%;
+   }
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+   /*banner*/
+   .banner .introduction h2{
+    font-size: 2rem;
+   }
+   .banner .introduction p{
+    font-size: 1.5rem;
+    width: 63%;
+    margin: 0 0;
+   }
+    /*introduce*/
+   .container-fluid .introduce-content p {
+    width: 80%;
+    text-align: justify;
+    margin: 1rem 0;
+    }
+    .container-fluid .introduce-content p {
+        font-size: 14px;
+    }
+    .intro-content p {
+        font-size: 14px;
+    }
+ }

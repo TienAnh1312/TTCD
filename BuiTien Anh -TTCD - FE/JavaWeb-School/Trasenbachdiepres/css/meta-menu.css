@@ -1,0 +1,7 @@
+.nav-item:hover{
+    background-color: red;
+    width: 15%;
+}
+.nav-item a p:hover {
+    color: antiquewhite;
+}
